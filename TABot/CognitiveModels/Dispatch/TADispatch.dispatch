@@ -1,0 +1,36 @@
+{
+  "authoringRegion": "westus",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "appId": "e005c8d3-6645-4a5b-83c5-a5652fd3b117",
+      "authoringKey": "7bc0f188dfdc42318a6f4fba7a7012d2",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "TALuis",
+      "id": "1"
+    },
+    {
+      "kbId": "f19b2d65-7549-41e5-8ec8-a2a2d912e54e",
+      "subscriptionKey": "191c7ae0abc349babba7fd3461c48bc7",
+      "type": "qna",
+      "name": "TAKB",
+      "id": "2"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2"
+  ],
+  "appId": "870cb3c5-d0cc-4853-b1d1-9c8b8f80067b",
+  "authoringKey": "7bc0f188dfdc42318a6f4fba7a7012d2",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "TADispatch"
+}

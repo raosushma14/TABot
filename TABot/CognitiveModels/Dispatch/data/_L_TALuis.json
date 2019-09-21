@@ -1,0 +1,41 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "TALuis",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "AssignmentQuestions"
+    },
+    {
+      "name": "ErrorQuestions"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "can you help me with assignment 1",
+      "intent": "AssignmentQuestions",
+      "entities": []
+    },
+    {
+      "text": "i am facing an error",
+      "intent": "ErrorQuestions",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
