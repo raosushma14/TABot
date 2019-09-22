@@ -6,6 +6,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Extensions.Configuration;
@@ -34,6 +35,12 @@ namespace TABot
             // Create the Bot Framework Adapter with error handling enabled.
             services.AddSingleton<IBotFrameworkHttpAdapter, AdapterWithErrorHandler>();
 
+            services.AddSingleton<IStorage, MemoryStorage>();
+
+            services.AddSingleton<UserState>();
+
+            services.AddSingleton<ConversationState>();
+
             services.AddSingleton<IBotServices, BotServices>();
 
             //Register email service as a transient dependency in the IOC
@@ -49,6 +56,15 @@ namespace TABot
                 }
                 return new EmailService(baseUrl, fromEmail, toEmail, authKey);
             });
+
+            services.AddTransient<ComputerVisionClient>((serviceProvider) => {
+                return new ComputerVisionClient(
+                    new ApiKeyServiceClientCredentials(Configuration["ComputerVisionSubscriptionKey"]))
+                {
+                    Endpoint = Configuration["ComputerVisionEndPoint"]                    
+                };
+            });
+
 
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
             services.AddTransient<IBot, EchoBot>();

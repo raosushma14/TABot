@@ -15,6 +15,9 @@ using TABot.Services.BotServices;
 using System.Linq;
 using TABot.Helpers;
 using TABot.Services.EmailServices;
+using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
+using Microsoft.Bot.Builder.Dialogs;
+using TABot.Bots.Dialogs;
 
 namespace TABot.Bots
 {
@@ -23,20 +26,45 @@ namespace TABot.Bots
         private IBotServices _botServices;
         private ILogger<EchoBot> _logger;
         private EmailService _emailService;
+        private ComputerVisionClient _computerVisionClient;
 
-        public EchoBot(IBotServices botServices, ILogger<EchoBot> logger, EmailService emailService)
+        private BotState _conversationState;
+        private BotState _userState;
+
+        public EchoBot(IBotServices botServices, ILogger<EchoBot> logger, EmailService emailService, 
+            ComputerVisionClient computerVisionClient, ConversationState conversationState, UserState userState)
         {
             _botServices = botServices ?? throw new ArgumentNullException(nameof(botServices));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
+            _computerVisionClient = computerVisionClient ?? throw new ArgumentNullException(nameof(computerVisionClient));
+            _conversationState = conversationState ?? throw new ArgumentNullException(nameof(conversationState));
+            _userState = userState ?? throw new ArgumentNullException(nameof(userState));
+        }
+
+        public override async Task OnTurnAsync(ITurnContext turnContext, CancellationToken cancellationToken = default)
+        {
+            await base.OnTurnAsync(turnContext, cancellationToken);
+            
+            await _conversationState.SaveChangesAsync(turnContext, false, cancellationToken);
+            await _userState.SaveChangesAsync(turnContext, false, cancellationToken);
         }
 
         protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
-            var dispatchResult = await _botServices.Dispatch.RecognizeAsync(turnContext, cancellationToken);
-            var topIntent = dispatchResult.GetTopScoringIntent();
+            var dialogSet = new DialogSet(_conversationState.CreateProperty<DialogState>(
+                        nameof(DialogState)));
+            var dialogContext = await dialogSet.CreateContextAsync(turnContext, cancellationToken);
+            var results = await dialogContext.ContinueDialogAsync(cancellationToken);
 
-            await DispatchToTopIntentAsync(turnContext, topIntent.intent, dispatchResult, cancellationToken);
+            if (results.Status == DialogTurnStatus.Empty)
+            {
+                var dispatchResult = await _botServices.Dispatch.RecognizeAsync(turnContext, cancellationToken);
+                var topIntent = dispatchResult.GetTopScoringIntent();
+
+                await DispatchToTopIntentAsync(turnContext, topIntent.intent, dispatchResult, cancellationToken);
+            }
+            
         }
 
         private async Task DispatchToTopIntentAsync(ITurnContext<IMessageActivity> turnContext, string intent, RecognizerResult dispatchResult, CancellationToken cancellationToken)
@@ -78,10 +106,14 @@ namespace TABot.Bots
             switch (topIntent)
             {
                 case "ErrorQuestions":
-                    await _emailService.SendEmailAsync(
-                        subject: "Error Test",
-                        body: "error");
-                    await turnContext.ReplyTextAsync("I can help with error");
+                    //await _emailService.SendEmailAsync(
+                    //    subject: "Error Test",
+                    //    body: "error");
+
+                    Dialog dialog = new ErrorEnquiryDialog();
+                    await dialog.RunAsync(turnContext, _conversationState.CreateProperty<DialogState>(
+                        nameof(DialogState)), cancellationToken);
+                    //await turnContext.ReplyTextAsync("I can help with error");
                     break;
                 case "AssignmentQuestions":
                     await turnContext.ReplyTextAsync("i can help with your assignment");
