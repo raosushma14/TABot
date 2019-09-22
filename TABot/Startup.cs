@@ -40,11 +40,14 @@ namespace TABot
             services.AddTransient<EmailService>((serviceProvider) => {
                 var baseUrl = Configuration["SendGridBaseUrl"];
                 var authKey = Configuration["SendGridAuthKey"];
+                var fromEmail = Configuration["SendGridFromEmail"];
+                var toEmail = Configuration["SendGridToEmail"];
+
                 if (string.IsNullOrEmpty(baseUrl) || string.IsNullOrEmpty(authKey))
                 {
                     throw new InvalidOperationException("email Base URL or auth key is Missing. Please add your base url to the 'sendGridBaseUrl' setting.");
                 }
-                return new EmailService(baseUrl, authKey);
+                return new EmailService(baseUrl, fromEmail, toEmail, authKey);
             });
 
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.

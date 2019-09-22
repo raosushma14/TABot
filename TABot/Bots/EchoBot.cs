@@ -79,7 +79,6 @@ namespace TABot.Bots
             {
                 case "ErrorQuestions":
                     await _emailService.SendEmailAsync(
-                        to: "akashpavate58@gmail.com",
                         subject: "Error Test",
                         body: "error");
                     await turnContext.ReplyTextAsync("I can help with error");

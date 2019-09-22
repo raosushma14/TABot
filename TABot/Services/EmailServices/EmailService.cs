@@ -12,17 +12,26 @@ namespace TABot.Services.EmailServices
     {
         private const string RouteTemplate = "/v3/mail/send";
         private string _baseUrl { get; set; }
+        private string _fromEmail { get; set; }
+        private string _toEmail { get; set; }
 
         private string _authKey { get; set; }
-        public EmailService(string baseUrl, string authKey)
+
+        public EmailService(string baseUrl, string fromEmail, string toEmail, string authKey)
         {
             _baseUrl = baseUrl ?? throw new ArgumentNullException(nameof(baseUrl));
-
+            _fromEmail = fromEmail ?? throw new ArgumentNullException(nameof(fromEmail));
+            _toEmail = toEmail ?? throw new ArgumentNullException(nameof(toEmail));
             _authKey = authKey ?? throw new ArgumentNullException(nameof(authKey));
         }
 
-        public async Task SendEmailAsync(string to, string subject, string body, bool isHtml = false)
+        public async Task SendEmailAsync(string subject, string body, string to = null, bool isHtml = false)
         {
+            if(to == null)
+            {
+                to = _toEmail;
+            }
+
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _authKey);
             var url = _baseUrl + RouteTemplate;
@@ -39,7 +48,7 @@ namespace TABot.Services.EmailServices
                         }
                     }
                 },
-                From = new EmailAddress { Email = "raosushma14@gmail.com" },
+                From = new EmailAddress { Email = _fromEmail },
                 Subject = subject,
                 Content = new List<EmailContent>
                 {
