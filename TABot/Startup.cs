@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using TABot.Bots;
+using TABot.Bots.Dialogs;
 using TABot.Services.BotServices;
 using TABot.Services.EmailServices;
 
@@ -65,9 +66,11 @@ namespace TABot
                 };
             });
 
+            services.AddSingleton<ErrorEnquiryDialog>();
+            services.AddSingleton<MainDialog>();
 
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
-            services.AddTransient<IBot, EchoBot>();
+            services.AddTransient<IBot, DialogAndWelcomeBot<MainDialog>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -11,7 +11,6 @@ namespace TABot.Bots.Dialogs
 {
     public class ErrorEnquiryDialog : ComponentDialog
     {
-        private string _initDialogId = "EEDBegin";
         private const string uploadChoice = "Upload a screenshot", textChoice = "Copy & Paste Error message";
 
         public ErrorEnquiryDialog() : base(nameof(ErrorEnquiryDialog))
@@ -23,13 +22,14 @@ namespace TABot.Bots.Dialogs
                 ProcessWithLuisAndRespond
             };
 
-            AddDialog(new WaterfallDialog(_initDialogId, waterfallSteps));
+            AddDialog(new WaterfallDialog(nameof(WaterfallDialog), waterfallSteps));
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(new AttachmentPrompt(nameof(AttachmentPrompt)));
             AddDialog(new ChoicePrompt(nameof(ChoicePrompt)));
 
-            InitialDialogId = _initDialogId;
+            InitialDialogId = nameof(WaterfallDialog);
         }
+        
 
         private async Task<DialogTurnResult> AskErrorTextOrImage(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
@@ -49,16 +49,17 @@ namespace TABot.Bots.Dialogs
 
         private async Task<DialogTurnResult> SendAppropriatePrompt(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            var choice = (string) stepContext.Result;
+            var choice = ((FoundChoice)stepContext.Result).Value;
 
             stepContext.Values["ErrorEntryMethod"] = choice;
 
             switch (choice)
             {
                 case uploadChoice:
-                    return await stepContext.PromptAsync(nameof(ChoicePrompt), new PromptOptions
+                    return await stepContext.PromptAsync(nameof(AttachmentPrompt), new PromptOptions
                     {
-                        Prompt = MessageFactory.Text("Please click the upload button and upload the screenshot")
+                        Prompt = MessageFactory.Text("Please click the upload button and upload the screenshot"),
+                        RetryPrompt = MessageFactory.Text("Please click the upload button on the bottom left and upload the screenshot. You can also say 'quit' to exit from this dialog."),
                     });
 
                 case textChoice:
