@@ -9,7 +9,7 @@ using TABot.Helpers;
 
 namespace TABot.Bots.Dialogs
 {
-    public class ErrorEnquiryDialog : ComponentDialog
+    public class ErrorEnquiryDialog : LuisDialog
     {
         private const string uploadChoice = "Upload a screenshot", textChoice = "Copy & Paste Error message";
 

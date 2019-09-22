@@ -37,6 +37,7 @@ namespace TABot.Bots.Dialogs
             // The initial child Dialog to run.
             InitialDialogId = nameof(WaterfallDialog);
         }
+        
 
         public override async Task<DialogTurnResult> ContinueDialogAsync(DialogContext outerDc, CancellationToken cancellationToken = default)
         {
@@ -57,23 +58,13 @@ namespace TABot.Bots.Dialogs
             return await base.ContinueDialogAsync(outerDc, cancellationToken);
         }
 
+        // Step #1
         private async Task<DialogTurnResult> WaitForUsersMessage(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            //if (string.IsNullOrEmpty(stepContext.Context.Activity.Text))
-            //{
-            //    return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions
-            //    {
-                    
-            //    }, cancellationToken);
-            //}
-            //else
-            //{
-            //    return await stepContext.NextAsync(stepContext.Context.Activity.Text, cancellationToken);
-            //}
-
             return await stepContext.NextAsync(stepContext.Context.Activity.Text, cancellationToken);
         }
 
+        // Step #2
         private async Task<DialogTurnResult> BeginDispatchAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var usersMessage = (string) stepContext.Result;
@@ -102,7 +93,6 @@ namespace TABot.Bots.Dialogs
         {
             var result = luisResult.ConnectedServiceResult;
             var topIntent = result.TopScoringIntent.Intent;
-
             switch (topIntent)
             {
                 case "ErrorQuestions":
@@ -115,6 +105,7 @@ namespace TABot.Bots.Dialogs
                     await stepContext.Context.ReplyTextAsync("Sorry! I am unable to understand that");
                     break;
             }
+            
             return await stepContext.NextAsync(null, cancellationToken);
         }
 
@@ -133,12 +124,9 @@ namespace TABot.Bots.Dialogs
             return await stepContext.NextAsync(null, cancellationToken);
         }
 
+        // Step #3
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            //stepContext.Context.Activity.Text = null;
-            //var promptMessage = "Is there anything else I can help with?";
-            //return await stepContext.ReplaceDialogAsync(InitialDialogId, promptMessage, cancellationToken);
-
             return await stepContext.EndDialogAsync(null, cancellationToken);
         }
     }
