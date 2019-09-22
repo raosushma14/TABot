@@ -49,7 +49,7 @@ namespace TABot.Bots.Dialogs
 
         private async Task<DialogTurnResult> SendAppropriatePrompt(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            var choice = (string) stepContext.Result;
+            var choice = ((FoundChoice) stepContext.Result).Value;
 
             stepContext.Values["ErrorEntryMethod"] = choice;
 
