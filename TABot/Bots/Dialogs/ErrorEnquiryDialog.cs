@@ -2,10 +2,19 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Builder.Dialogs.Choices;
+using Microsoft.Bot.Schema;
+using Microsoft.Extensions.Logging;
 using TABot.Helpers;
+using TABot.Services.BotServices;
+using TABot.Services.EmailServices;
+using System.Linq;
+using System.Net;
+using System.IO;
+using System.Text;
 
 namespace TABot.Bots.Dialogs
 {
@@ -13,8 +22,19 @@ namespace TABot.Bots.Dialogs
     {
         private const string uploadChoice = "Upload a screenshot", textChoice = "Copy & Paste Error message";
 
-        public ErrorEnquiryDialog() : base(nameof(ErrorEnquiryDialog))
+        private IBotServices _botServices;
+        private ILogger<EchoBot> _logger;
+        private EmailService _emailService;
+        private ComputerVisionClient _computerVisionClient;
+        
+        public ErrorEnquiryDialog(IBotServices botServices, ILogger<EchoBot> logger, 
+            EmailService emailService, ComputerVisionClient computerVisionClient) : base(nameof(ErrorEnquiryDialog))
         {
+            _botServices = botServices ?? throw new ArgumentNullException(nameof(botServices));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
+            _computerVisionClient = computerVisionClient ?? throw new ArgumentNullException(nameof(computerVisionClient));
+
             var waterfallSteps = new WaterfallStep[]
             {
                 AskErrorTextOrImage,
@@ -81,7 +101,56 @@ namespace TABot.Bots.Dialogs
                     await stepContext.Context.ReplyTextAsync("Recieved error as text");
                     break;
                 case uploadChoice:
-                    await stepContext.Context.ReplyTextAsync("Recieved error as image");
+                    var file = ((IEnumerable<Attachment>)stepContext.Result).FirstOrDefault();
+                    if(file != null)
+                    {
+                        bool worked = false;
+                        using (WebClient client = new WebClient())
+                        {
+                            var data = client.DownloadData(new Uri(file.ContentUrl));
+                            using(MemoryStream stream = new MemoryStream(data))
+                            {
+                                var response = await _computerVisionClient.RecognizePrintedTextInStreamAsync(false, stream);
+                                
+                                foreach (var region in response.Regions)
+                                {
+                                    foreach (var line in region.Lines)
+                                    {
+                                        StringBuilder builder = new StringBuilder();
+                                        foreach (var word in line.Words)
+                                        {
+                                            builder.Append($"{word.Text} ");
+                                        }
+                                        string text = builder.ToString();
+                                        stepContext.Context.Activity.Text = text;
+                                        var result = await _botServices.ErrorLuis.RecognizeAsync(stepContext.Context, cancellationToken);
+                                        var topIntent = result.GetTopScoringIntent();
+                                        switch (topIntent.intent)
+                                        {
+                                            case "SegmentationFault":
+                                                worked = true;
+                                                await stepContext.Context.ReplyTextAsync($"Line - '{text}'\n\nYour program is trying to access a memory that is not allocated for it.");
+                                                break;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        if (worked)
+                        {
+                            await stepContext.Context.ReplyTextAsync("I hope this should give you enough ammunition to fix your code");
+                        }
+                        else
+                        {
+                            await stepContext.Context.ReplyTextAsync("I was unable to find out what's wrong. I'll let the course instructor know about this.");
+                        }
+                    }
+                    else
+                    {
+                        await stepContext.Context.ReplyTextAsync("Sorry, attachment upload failed");
+                    }
+                    
                     break;
             }
 

@@ -110,10 +110,8 @@ namespace TABot.Bots
                     //    subject: "Error Test",
                     //    body: "error");
 
-                    Dialog dialog = new ErrorEnquiryDialog();
-                    await dialog.RunAsync(turnContext, _conversationState.CreateProperty<DialogState>(
-                        nameof(DialogState)), cancellationToken);
-                    //await turnContext.ReplyTextAsync("I can help with error");
+                    
+                    await turnContext.ReplyTextAsync("I can help with error");
                     break;
                 case "AssignmentQuestions":
                     await turnContext.ReplyTextAsync("i can help with your assignment");
