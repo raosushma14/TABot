@@ -14,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using TABot.Services.BotServices;
 using System.Linq;
 using TABot.Helpers;
+using TABot.Services.EmailServices;
 
 namespace TABot.Bots
 {
@@ -21,11 +22,13 @@ namespace TABot.Bots
     {
         private IBotServices _botServices;
         private ILogger<EchoBot> _logger;
+        private EmailService _emailService;
 
-        public EchoBot(IBotServices botServices, ILogger<EchoBot> logger)
+        public EchoBot(IBotServices botServices, ILogger<EchoBot> logger, EmailService emailService)
         {
             _botServices = botServices ?? throw new ArgumentNullException(nameof(botServices));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
         }
 
         protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
@@ -75,6 +78,9 @@ namespace TABot.Bots
             switch (topIntent)
             {
                 case "ErrorQuestions":
+                    await _emailService.SendEmailAsync(
+                        subject: "Error Test",
+                        body: "error");
                     await turnContext.ReplyTextAsync("I can help with error");
                     break;
                 case "AssignmentQuestions":

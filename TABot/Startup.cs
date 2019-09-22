@@ -10,9 +10,10 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+using System;
 using TABot.Bots;
 using TABot.Services.BotServices;
+using TABot.Services.EmailServices;
 
 namespace TABot
 {
@@ -34,6 +35,20 @@ namespace TABot
             services.AddSingleton<IBotFrameworkHttpAdapter, AdapterWithErrorHandler>();
 
             services.AddSingleton<IBotServices, BotServices>();
+
+            //Register email service as a transient dependency in the IOC
+            services.AddTransient<EmailService>((serviceProvider) => {
+                var baseUrl = Configuration["SendGridBaseUrl"];
+                var authKey = Configuration["SendGridAuthKey"];
+                var fromEmail = Configuration["SendGridFromEmail"];
+                var toEmail = Configuration["SendGridToEmail"];
+
+                if (string.IsNullOrEmpty(baseUrl) || string.IsNullOrEmpty(authKey))
+                {
+                    throw new InvalidOperationException("email Base URL or auth key is Missing. Please add your base url to the 'sendGridBaseUrl' setting.");
+                }
+                return new EmailService(baseUrl, fromEmail, toEmail, authKey);
+            });
 
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
             services.AddTransient<IBot, EchoBot>();
