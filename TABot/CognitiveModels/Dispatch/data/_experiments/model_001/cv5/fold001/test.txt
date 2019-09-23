@@ -1,177 +1,177 @@
 Label	Weight	Text
-q_TAKB	1	What can you tell me about chatbots
-q_TAKB	1	You are alluring
-q_TAKB	1	What do you know about love
-q_TAKB	1	Which of us looks more beautiful, you or me
-q_TAKB	1	Can you count to a million
-q_TAKB	1	U R A Q T
-q_TAKB	1	Quit joking around
-q_TAKB	1	That doesn't answer my question
-q_TAKB	1	I'm a lonely gal
-q_TAKB	1	Nope, false
+q_TAKB	1	I'm famished
+q_TAKB	1	I want a peck
+q_TAKB	1	Say something
+q_TAKB	1	You're not planning on taking over the world right
+q_TAKB	1	Who is your architect
+q_TAKB	1	Are you capable of loving
+q_TAKB	1	Bot or human
+q_TAKB	1	that is lame
+q_TAKB	1	I'm a lonely girl
+q_TAKB	1	Not even close
+q_TAKB	1	Is anyone around to talk
 q_TAKB	1	That's a very genius response
-q_TAKB	1	You're correct
-q_TAKB	1	Can you tell me a different joke
+q_TAKB	1	What is the best kind of bagel
 q_TAKB	1	Can I speak with your boss
-q_TAKB	1	Are you going out with anyone
-q_TAKB	1	Fuggitaboutit
-q_TAKB	1	wanna tell me a joke
-q_TAKB	1	How bout a french kiss
-q_TAKB	1	You're my bestie
-q_TAKB	1	Are you free to listen with me
-q_TAKB	1	What is your dream
+q_TAKB	1	Are you going out with somebody
+q_TAKB	1	Anybody around to chat to me
+q_TAKB	1	Say a dumb saying
+q_TAKB	1	How bout a kiss
+q_TAKB	1	Are you angry with me
+q_TAKB	1	I'm living the dream!
+q_TAKB	1	Good morning sunshine
 q_TAKB	1	Huh? I don't understand.
-q_TAKB	1	Are you close with your dad
-q_TAKB	1	What do you like about me
-q_TAKB	1	Who did your programming
-q_TAKB	1	What do you know about the emotion love
-q_TAKB	1	Are you able to take my temperature
-q_TAKB	1	I'd love to be your friend.
-q_TAKB	1	Will you be my BFF
-q_TAKB	1	You are spectacular
-q_TAKB	1	What do you know about bots
-q_TAKB	1	I'd like to be best friends.
-q_TAKB	1	How long have you been online
-q_TAKB	1	Write my report
-q_TAKB	1	You win some you lose some
-q_TAKB	1	Am I repulsive to you today
-q_TAKB	1	Who is better looking, me or you
-q_TAKB	1	What should I refer to you
-q_TAKB	1	When were you born
-q_TAKB	1	What can you tell me about Cortana
-q_TAKB	1	Will you be my best bud
-q_TAKB	1	That was a joke
-q_TAKB	1	That is a very genius thing to say
-q_TAKB	1	Find my phone
-q_TAKB	1	Is someone free to talk with me
-q_TAKB	1	I'd like to be pals.
-q_TAKB	1	I am not enjoying this boring conversation
-q_TAKB	1	I'm an Independent
-q_TAKB	1	Who's smarter, me or you
-q_TAKB	1	Do you think I seem stunning today
-q_TAKB	1	Why are you so limited
-q_TAKB	1	Talk to me
+q_TAKB	1	How has the day been treating ya
+q_TAKB	1	Tell me something funny
+q_TAKB	1	Are you going out with anyone
 q_TAKB	1	How about a new joke
-q_TAKB	1	Don't you want to know anything about me
-q_TAKB	1	Between you and me who looks more pretty
-q_TAKB	1	That's not something you should be saying
-q_TAKB	1	Alexa is superior to you
-q_TAKB	1	Could you be any more boring
-q_TAKB	1	I'd like a fist bump, please
-q_TAKB	1	When's our wedding
+q_TAKB	1	Are you a monosexual
+q_TAKB	1	Top of the morning
+q_TAKB	1	Will you be my buddy
+q_TAKB	1	You are spectacular
+q_TAKB	1	What do you know about tech companies
+q_TAKB	1	I'd like to be BFFs
+q_TAKB	1	Where is your home
+q_TAKB	1	what are you talking about
+q_TAKB	1	You’re the boss
+q_TAKB	1	Do you like basketball
+q_TAKB	1	I’ve never been to Mexico
+q_TAKB	1	What should I refer to you
+q_TAKB	1	What is a joke you know
+q_TAKB	1	I am cracking up
+q_TAKB	1	Will you be my best bud
+q_TAKB	1	You little sweetie
+q_TAKB	1	Why am I the only one asking questions
+q_TAKB	1	Should I call my dad
+q_TAKB	1	What is another joke
+q_TAKB	1	I'd like to be your best friend.
+q_TAKB	1	I'm obviously more knowledgeable
+q_TAKB	1	That was random
+q_TAKB	1	G'night
+q_TAKB	1	How are you doing on this day
+q_TAKB	1	Why are you so limited
+q_TAKB	1	My spirits are excellent.
+q_TAKB	1	Do I seem pretty to you today
+q_TAKB	1	That's not what I asked
+q_TAKB	1	Between you and me who would win a beauty contest
+q_TAKB	1	Do you care about your family
+q_TAKB	1	Someone's happy today.
+q_TAKB	1	Are you available to chat
+q_TAKB	1	You're astute
+q_TAKB	1	Where should we get married
 q_TAKB	1	Do you identify as gynosexual
 q_TAKB	1	Is a hot dog a sandwich
-q_TAKB	1	Can I get a smooch
-q_TAKB	1	Do you know how to turn into a super hero
+q_TAKB	1	Enthusiastic
+q_TAKB	1	How do I fall in love
 q_TAKB	1	You're lame
 q_TAKB	1	Mornin'
-q_TAKB	1	How do you identify in terms of gender
-q_TAKB	1	I love to tidy up
-q_TAKB	1	Who do you answer to
+q_TAKB	1	You seem to be happy today.
+q_TAKB	1	I love to travel
+q_TAKB	1	You're triggering me
 q_TAKB	1	I'm a basketball fan
-q_TAKB	1	How attractive am I today
-q_TAKB	1	Won't you sing a song for me
+q_TAKB	1	Are you close with your mom
+q_TAKB	1	Won't you sing for me
 q_TAKB	1	Who's prettier than me
-q_TAKB	1	Can somebody hear me
+q_TAKB	1	Is anybody around to talk
 q_TAKB	1	You think that's funny
-q_TAKB	1	That is great
-q_TAKB	1	I'm more beautiful than you
+q_TAKB	1	Who made you
+q_TAKB	1	You up
+q_TAKB	1	Are there any other jokes
 q_TAKB	1	That's wrong
-q_TAKB	1	You're not a bot or a human are you
-q_TAKB	1	Who is your boyfriend
+q_TAKB	1	Do you know how to put out a fire
 q_TAKB	1	I want to hear something funny
-q_TAKB	1	You are my BFF
+q_TAKB	1	I want to go shopping
 q_TAKB	1	You don't interest me at all
-q_TAKB	1	Do you think I look good to you today
-q_TAKB	1	Who's more beautiful
+q_TAKB	1	Is anyone free to speak
+q_TAKB	1	I want to smooch
 q_TAKB	1	What an intelligent thing to say
 q_TAKB	1	How is the day treating ya
-q_TAKB	1	How are you feeling
+q_TAKB	1	Do you walk
 q_TAKB	1	Do you think I look pretty today
-q_TAKB	1	I love pizza
-q_TAKB	1	Are you around to chat to me
-q_TAKB	1	You're hideous
+q_TAKB	1	I love podcasts
+q_TAKB	1	I love to walk in the park
+q_TAKB	1	How do I make friends
 q_TAKB	1	Do you have a title
-q_TAKB	1	I think you are great
-q_TAKB	1	I'm back
-q_TAKB	1	Are you close with your family
+q_TAKB	1	How happy are you
+q_TAKB	1	Do you ride horses
+q_TAKB	1	Am I a grandfather
 q_TAKB	1	Is there a greater meaning to the universe
 q_TAKB	1	Do you think I seem attractive to you
-q_TAKB	1	You're terrible at this
-q_TAKB	1	How would you define what you are
-q_TAKB	1	Am I attractive today
+q_TAKB	1	Do you know that I like you
+q_TAKB	1	Do I look bad to you
+q_TAKB	1	I'm overtired
 q_TAKB	1	What are you doing
-q_TAKB	1	Who is more knowledgeable
-q_TAKB	1	I'm laughing
+q_TAKB	1	Can you play basketball
+q_TAKB	1	Is someone there to speak to me
 q_TAKB	1	Between the two of us who is more intelligent, me or you
-q_TAKB	1	I would love to be your bud.
-q_TAKB	1	Stop messing around
-q_TAKB	1	Are we the same age
+q_TAKB	1	I would love to be your buddy.
+q_TAKB	1	Stop trying to be funny
+q_TAKB	1	Should I skip school
 q_TAKB	1	You've said that before
-q_TAKB	1	Am I adorable to you
-q_TAKB	1	What's your favorite color
+q_TAKB	1	That's pretty smart
+q_TAKB	1	What are my goals
 q_TAKB	1	Can you forgive me
-q_TAKB	1	Aren't you happy
+q_TAKB	1	I love the New York Times
 q_TAKB	1	I'd love to be your bud.
-q_TAKB	1	Just curious, what do you think of my character
+q_TAKB	1	Just curious, what kind of person do you think I am
 q_TAKB	1	I need to talk to your supervisor
 q_TAKB	1	That was a smart answer
-q_TAKB	1	Scratch my back
-q_TAKB	1	Do you think I look handsome to you today
-q_TAKB	1	I wonder if you like me
-q_TAKB	1	Can you breathe under water
-q_TAKB	1	I'm the most smart
+q_TAKB	1	How bout a peck
+q_TAKB	1	I'm a tech journalist
+q_TAKB	1	Find my keys
+q_TAKB	1	I've already heard that one
+q_TAKB	1	I'm the smartest
 q_TAKB	1	I do hope you like me
 q_TAKB	1	Do you mean us harm
 q_TAKB	1	What other jokes do you know
-q_TAKB	1	Do you know HAL
-q_TAKB	1	Season's greetings!
-q_TAKB	1	Is anyone available to chat to me
-q_TAKB	1	Boring
+q_TAKB	1	Who's your auntie
+q_TAKB	1	How's it going
+q_TAKB	1	Can you ever forgive me
+q_TAKB	1	God, I am so bored
 q_TAKB	1	Are you currently going steady with anyone
 q_TAKB	1	I love to wake up early
-q_TAKB	1	What's something you know about me
-q_TAKB	1	Wazzup
-q_TAKB	1	What is going on
+q_TAKB	1	Where am I going on holiday
+q_TAKB	1	Aren't you the intelligent one
+q_TAKB	1	What is your job
 q_TAKB	1	Is anyone around
 q_TAKB	1	Well you're enthusiastic.
-q_TAKB	1	Just catching up on the news
+q_TAKB	1	Just sitting here and chatting
 q_TAKB	1	What's it all about
-q_TAKB	1	I’m a happy camper.
-q_TAKB	1	I'm downhearted
-q_TAKB	1	How long have you been chatting
-q_TAKB	1	Do you know about the human emotion love
+q_TAKB	1	I’m absolutely delighted.
+q_TAKB	1	Just playing
+q_TAKB	1	Turn on the lights
+q_TAKB	1	How adorable do I look today
 q_TAKB	1	Which is the best Pixar film
-q_TAKB	1	Between you and me who is prettier
-q_TAKB	1	Got a second joke
-q_TAKB	1	Siri is better
+q_TAKB	1	Is anybody there to chat to me
+q_TAKB	1	Are you a senior
+q_TAKB	1	Siri is superior
 q_TAKB	1	You're not a lady are you
 q_TAKB	1	Are you Bixby
-q_TAKB	1	I am vexed
-q_TAKB	1	Do you think I seem bad to you today
+q_TAKB	1	You're not real or fake are you
+q_TAKB	1	You are scaring me
 q_TAKB	1	Are you robosexual
 q_TAKB	1	I would like to be your bud.
-q_TAKB	1	Obviously that's true
-q_TAKB	1	How do I make friends
-q_TAKB	1	We should go out
+q_TAKB	1	One of these days
+q_TAKB	1	I am alone
+q_TAKB	1	You're such a sweetheart
 q_TAKB	1	How bad do you think I am today
-q_TAKB	1	You are going to have to look for another job. You are fired!
-q_TAKB	1	Will you ask me anything about myself
-q_TAKB	1	With whom am I chatting
-q_TAKB	1	Are you going steady with someone
-q_TAKB	1	Who is your daddy
-q_TAKB	1	do you like tottenham
+q_TAKB	1	You are going to have to look for another job. You're fired!
+q_TAKB	1	You are heterosexual.
+q_TAKB	1	Night
+q_TAKB	1	What do you think about my personality
+q_TAKB	1	Is anyone available to chat with me
+q_TAKB	1	Are you around to listen
 q_TAKB	1	Do you wish to conquer the world
-q_TAKB	1	What can you do
-q_TAKB	1	What's your favorite activity
-q_TAKB	1	Can you tie your shoes
+q_TAKB	1	You're cheerful.
+q_TAKB	1	You win some you lose some
+q_TAKB	1	What do you mean by that
 q_TAKB	1	Who's smarter
 q_TAKB	1	How are you
-q_TAKB	1	I'm grateful for that, thank you
-q_TAKB	1	Do you think I seem cute to you today
+q_TAKB	1	Do you know how to get a haircut
+q_TAKB	1	Do you think I seem cute to you
 q_TAKB	1	Do you know of Google
-q_TAKB	1	I think you're gross
-q_TAKB	1	Tell me about your dad
+q_TAKB	1	Is anyone there to listen to me
+q_TAKB	1	You're not attempting world domination right
 q_TAKB	1	Do you like animals
 q_TAKB	1	You have a beautiful soul
 q_TAKB	1	Do you think that's funny
@@ -181,811 +181,811 @@ q_TAKB	1	Can you show me how to listen to the radio
 q_TAKB	1	Can you climb a mountain
 q_TAKB	1	Cortana does a better job than you
 q_TAKB	1	Do I need to go outside
-q_TAKB	1	Can you take a leisurely walk
+q_TAKB	1	Are you doing OK
 q_TAKB	1	Can you make me laugh
 q_TAKB	1	You're bad at this
-q_TAKB	1	Can you do fight
-q_TAKB	1	Do you know how to go for a walk
+q_TAKB	1	Who do you answer to
+q_TAKB	1	You are so fly
+q_TAKB	1	Is anybody available to talk with me
 q_TAKB	1	I'm going to need a different answer
-q_TAKB	1	I'm clearly more clever
-q_TAKB	1	Do you think I'm more knowledgeable than you
+q_TAKB	1	Are you in a relationship with somebody
 q_TAKB	1	How stunning am I
 q_TAKB	1	Google Assistant does a better job at this
 q_TAKB	1	Pretty hilarous
 q_TAKB	1	Sup Siri
 q_TAKB	1	Are you free to speak
-q_TAKB	1	Do you play football
+q_TAKB	1	What do you go by
+q_TAKB	1	I need to talk with someone in charge
 q_TAKB	1	Is anyone listening
-q_TAKB	1	Why don't you sing something for me
-q_TAKB	1	You are hilarious
-q_TAKB	1	Is this thing on
-q_TAKB	1	Aren't you in a good mood
-q_TAKB	1	I'm feeling a little alone today
+q_TAKB	1	that is funny
+q_TAKB	1	Are you able to take my temperature
+q_TAKB	1	What is your opinion about artificial intellegence
+q_TAKB	1	Did you want a snack
 q_TAKB	1	Do I seem cute to you
-q_TAKB	1	Toodle-oo
+q_TAKB	1	I demand to talk to someone in charge
 q_TAKB	1	Can you show me how to teleport
 q_TAKB	1	yup, that's right
-q_TAKB	1	Play a game
+q_TAKB	1	Will you be my pal
 q_TAKB	1	Will you tell me a joke
-q_TAKB	1	I think you are incredible
+q_TAKB	1	I love brunch
 q_TAKB	1	Can you show me how to watch videos
-q_TAKB	1	Hey dude, I'm back
+q_TAKB	1	Hey I'm back
 q_TAKB	1	Between the two of us who is the smartest, me or you
 q_TAKB	1	Do you think I should ask her out
-q_TAKB	1	With whom am I talking
+q_TAKB	1	Can you sing something
+q_TAKB	1	Wonderful, thank you very much
 q_TAKB	1	Am I a grandparent
-q_TAKB	1	I'd like it if you could be my friend.
-q_TAKB	1	Can you show me how to read my mind
+q_TAKB	1	Should I visit my mom
 q_TAKB	1	What should I know about artificial intellegence
-q_TAKB	1	I'm obviously cleverest
-q_TAKB	1	How attractive do I look
+q_TAKB	1	Well someone's happy.
+q_TAKB	1	Hey Cortana
 q_TAKB	1	Are you a heterosexual
-q_TAKB	1	I feel like you're falling in love with me
-q_TAKB	1	Won't you be my best friend
-q_TAKB	1	Being sad is the worst
-q_TAKB	1	You're so bad at this
-q_TAKB	1	I'm going to go
-q_TAKB	1	You look grotesque.
+q_TAKB	1	I need you to fall in love with me
+q_TAKB	1	Play a game
+q_TAKB	1	Marvelous, thank you kindly
+q_TAKB	1	What's your brother's name
+q_TAKB	1	When were you brought online
+q_TAKB	1	You look hideous
+q_TAKB	1	That is very triggering
 q_TAKB	1	I want to kiss
-q_TAKB	1	Gimme a little smooch
 q_TAKB	1	Am I stunning to you
-q_TAKB	1	Do you have any cousins
+q_TAKB	1	Is anyone around to chat to me
+q_TAKB	1	Who's your favorite team
 q_TAKB	1	You're feeling enthusiastic today.
-q_TAKB	1	Can I have a little peck
 q_TAKB	1	This drink is cold
 q_TAKB	1	Should I get a part-time job
+q_TAKB	1	I am on a plane
 q_TAKB	1	What's going on with you
-q_TAKB	1	Can you vomit
-q_TAKB	1	Are you familiar with Siri
-q_TAKB	1	Are you kidding me
-q_TAKB	1	Oh, thank you
-q_TAKB	1	I am at the gym
-q_TAKB	1	Do you identify as bisexual
-q_TAKB	1	I should get organized
-q_TAKB	1	Did I do something to make you mad
+q_TAKB	1	Sry
+q_TAKB	1	Which of us is more beautiful
+q_TAKB	1	Somebody's feeling happy.
+q_TAKB	1	I am at work
+q_TAKB	1	Do you identify as gay
+q_TAKB	1	Can you try and explain that to me
+q_TAKB	1	How beautiful do I look
 q_TAKB	1	Siri is way smarter than you
-q_TAKB	1	What is your favorite animal
+q_TAKB	1	I want to talk to your manager
 q_TAKB	1	Which of us is more cute
 q_TAKB	1	Wrong
-q_TAKB	1	Are you able to go for a walk
-q_TAKB	1	Is someone there to talk with me
+q_TAKB	1	What's a joke
+q_TAKB	1	Do you shake
 q_TAKB	1	You are a monosexual.
 q_TAKB	1	Can you switch up your answers
-q_TAKB	1	Who is more pretty, me or you
+q_TAKB	1	What's your opinion of Google Assistant
 q_TAKB	1	Who's your brother
-q_TAKB	1	I love football
+q_TAKB	1	I love free speech
 q_TAKB	1	What a stupid thing to say
-q_TAKB	1	What's a different joke
+q_TAKB	1	Can you say something ridiculous
 q_TAKB	1	Are you able to feed the cat
-q_TAKB	1	Thank you so much
-q_TAKB	1	I can't stop being angry
+q_TAKB	1	Thanks
+q_TAKB	1	I couldn't be more angry
 q_TAKB	1	Sing with me
 q_TAKB	1	Are you available to speak to me
-q_TAKB	1	More or less
-q_TAKB	1	Any different jokes
-q_TAKB	1	I want a different response
+q_TAKB	1	My shoes are red
+q_TAKB	1	I'm a lawyer
+q_TAKB	1	When is our wedding
+q_TAKB	1	Listen to the radio
 q_TAKB	1	What kind of food do you like to eat
-q_TAKB	1	Should I go for a hike
 q_TAKB	1	I'd love it if you could be my pal.
 q_TAKB	1	Can you tell me  your address
 q_TAKB	1	Is anyone free
 q_TAKB	1	Are you available to chat with me
-q_TAKB	1	I'm going to fire you
+q_TAKB	1	Are you free to talk with me
 q_TAKB	1	Do you know me
 q_TAKB	1	Should I go out to eat
-q_TAKB	1	What happened to all my friends
-q_TAKB	1	You're not a lifeform right
+q_TAKB	1	Where did all my friends go
+q_TAKB	1	Do you think I look pretty
 q_TAKB	1	What did you have for breakfast
 q_TAKB	1	That doesn't make sense
-q_TAKB	1	You're being rude
+q_TAKB	1	Do you have any aunts
+q_TAKB	1	You gynosexual
 q_TAKB	1	I sure wish you would switch up your responses
-q_TAKB	1	That sucks
-q_TAKB	1	What country are you from
+q_TAKB	1	What's the point of life
 q_TAKB	1	What do I call you
 q_TAKB	1	Do I look adorable to you today
-q_TAKB	1	Do you want a beer
-q_TAKB	1	I am a game designer
-q_TAKB	1	Is anyone available with me
-q_TAKB	1	I am a lawyer
-q_TAKB	1	well okay then
-q_TAKB	1	Aren't you feeling enthusiastic
-q_TAKB	1	Sing me a song
-q_TAKB	1	Is anyone available to chat
+q_TAKB	1	Dummy
+q_TAKB	1	I am a Hoosier
+q_TAKB	1	People are going to start talking
+q_TAKB	1	I am a lesbian
+q_TAKB	1	Works for me
+q_TAKB	1	Between you or me, who is the most smart
+q_TAKB	1	Someone's feeling chipper today.
+q_TAKB	1	Would you ask me something about myself
 q_TAKB	1	Should I call my sister
 q_TAKB	1	That was pretty clever
 q_TAKB	1	Will you say something ridiculous
-q_TAKB	1	Do you think I seem repulsive to you today
-q_TAKB	1	Should I be intimidated
+q_TAKB	1	Do you get tired
+q_TAKB	1	Have you ever sung a song
 q_TAKB	1	You're not an animal are you
 q_TAKB	1	Are you gay or straight or what
 q_TAKB	1	That was a very smart response
 q_TAKB	1	I am going to have you fired
 q_TAKB	1	Can you fall in love
-q_TAKB	1	What's your boss' name
+q_TAKB	1	I got a new haircut
 q_TAKB	1	I'm definitely cleverest
-q_TAKB	1	What do you think about bots
+q_TAKB	1	I am a Buddhist
 q_TAKB	1	Are you in a relationship with someone
-q_TAKB	1	Is someone available
-q_TAKB	1	Do you like apples
-q_TAKB	1	I am always bored
-q_TAKB	1	How about a little kiss
-q_TAKB	1	Do you think I seem good today
-q_TAKB	1	Will you give me a joke
-q_TAKB	1	yes
-q_TAKB	1	Is there something you want to know about me
-q_TAKB	1	I'm pretty flexible
-q_TAKB	1	How beautiful am I today
-q_TAKB	1	I'm definitely more clever than you
-q_TAKB	1	Sing me a little ditty
-q_TAKB	1	I've already heard that one before
-q_TAKB	1	What's your opinion of me
+q_TAKB	1	I'm just fooling
+q_TAKB	1	What can you say that will make me laugh
+q_TAKB	1	I am bored
+q_TAKB	1	How about a little peck
+q_TAKB	1	Do you think I seem gorgeous to you today
+q_TAKB	1	Will you say a joke
+q_TAKB	1	Yes
+q_TAKB	1	Can you give me a joke
+q_TAKB	1	It’s been a long day
+q_TAKB	1	You sucks
+q_TAKB	1	Can you tell me where you are
+q_TAKB	1	Are you able to listen to the radio
+q_TAKB	1	Sing something
+q_TAKB	1	I demand to talk to your supervisor
 q_TAKB	1	Who's your manager
 q_TAKB	1	Is someone there to chat with me
-q_TAKB	1	Can you shiver
-q_TAKB	1	Was that supposed to make me laugh
+q_TAKB	1	You're not a real human are you
+q_TAKB	1	What do you think about technology
 q_TAKB	1	How was this lovely day for you then
 q_TAKB	1	I'm definitely more knowledgeable than you
-q_TAKB	1	So tired
-q_TAKB	1	You are just horrid
-q_TAKB	1	I'm totally isolated
-q_TAKB	1	Do you ever go shopping
+q_TAKB	1	Time for a good nights sleep
+q_TAKB	1	You're not scheming to take over the world right
+q_TAKB	1	It's a cruel world and I'm lonely
+q_TAKB	1	I'm curious, what's your opinion of me
 q_TAKB	1	Who's your supervisor
 q_TAKB	1	You are a bi.
 q_TAKB	1	What is your favorite baseball team
-q_TAKB	1	Mow the lawn
-q_TAKB	1	Which of us is more beautiful, me or you
-q_TAKB	1	Are you a robosexual
-q_TAKB	1	Why are you so repetitive
-q_TAKB	1	How handsome am I today
-q_TAKB	1	Will you sing something
-q_TAKB	1	I'm just fooling
+q_TAKB	1	Don't you want to ask anything about me
+q_TAKB	1	I'm pretty flexible
+q_TAKB	1	Are you a straight
+q_TAKB	1	Scratch my back
+q_TAKB	1	Do you think I look good looking
+q_TAKB	1	Will you sing to me
+q_TAKB	1	I'm just joking around
 q_TAKB	1	Do you know Bixby
 q_TAKB	1	Would you give me a new response
 q_TAKB	1	Can you plant a tree
-q_TAKB	1	Jeez I am so bored
-q_TAKB	1	Is anybody available to chat
-q_TAKB	1	Can you be silly
+q_TAKB	1	Mondays are so boring
+q_TAKB	1	You seem enthusiastic.
+q_TAKB	1	You're way off
 q_TAKB	1	You are going to have to look for another job because you are fired
-q_TAKB	1	So how should I refer to you
-q_TAKB	1	Someone's happy.
-q_TAKB	1	You're smarter
-q_TAKB	1	Would you sing a song
-q_TAKB	1	What can you tell me about other bots
-q_TAKB	1	Do you not remember me
+q_TAKB	1	I want to talk with your manager
+q_TAKB	1	Who is your husband
+q_TAKB	1	I love puzzles
+q_TAKB	1	You know I'm in love with you
+q_TAKB	1	Will you share a joke
+q_TAKB	1	Do you think you know me
 q_TAKB	1	That's the smartest thing anyone has ever written
-q_TAKB	1	Do you have family
-q_TAKB	1	Do you know about me
-q_TAKB	1	What's your opinion of Google Assistant
+q_TAKB	1	You're feeling cheerful.
+q_TAKB	1	Are you in your teens
+q_TAKB	1	What's your opinion of HAL
 q_TAKB	1	Give us a kiss, love
-q_TAKB	1	How bad do I look
-q_TAKB	1	What do your friend call you
+q_TAKB	1	Is that the only answer you know
+q_TAKB	1	Where should I go on vacation
 q_TAKB	1	Out of curiousity, do you understand me
-q_TAKB	1	Come up with something else
+q_TAKB	1	Do you have a designer
 q_TAKB	1	I'll be back after my shift
 q_TAKB	1	Happy Citizenship day
+q_TAKB	1	Say something kooky
 q_TAKB	1	You're straight
-q_TAKB	1	Which of us is the most smart
 q_TAKB	1	What are you called
-q_TAKB	1	Not even close
-q_TAKB	1	Do you know any other jokes
-q_TAKB	1	i did not understand what you just said
-q_TAKB	1	Have you ever met Bixby
-q_TAKB	1	What are you designed to do
+q_TAKB	1	Are you going steady with anyone
+q_TAKB	1	Do you like painting
+q_TAKB	1	I give up
+q_TAKB	1	Have you ever met Cortana
+q_TAKB	1	Is anybody listening to me
 q_TAKB	1	Can you ask anything about me
-q_TAKB	1	What's wrong with your face
+q_TAKB	1	Should we tie the knot
 q_TAKB	1	Can you tell me a second joke
 q_TAKB	1	Do you know how to check my email
-q_TAKB	1	That was a random response
-q_TAKB	1	Am I smarter
+q_TAKB	1	How ugly am I
+q_TAKB	1	Am I the brightest
 q_TAKB	1	Am I repulsive to you
-q_TAKB	1	Are you a computer program
-q_TAKB	1	Get a haircut
-q_TAKB	1	You seem really happy today
-q_TAKB	1	Introductions
-q_TAKB	1	what a great day.
-q_TAKB	1	Is there anyone listening
-q_TAKB	1	You're happy.
-q_TAKB	1	Me want food
+q_TAKB	1	Are you a computer
+q_TAKB	1	I'd like to be buddies.
+q_TAKB	1	You're not the singularity
+q_TAKB	1	Can you show me how to go for a walk
+q_TAKB	1	Who should I ask to prom
+q_TAKB	1	Is there someone listening
+q_TAKB	1	I'm joyous.
+q_TAKB	1	Are you going to have lunch
 q_TAKB	1	Do I have any dreams
 q_TAKB	1	Super
-q_TAKB	1	You're feeling cheerful.
-q_TAKB	1	Do you dance
-q_TAKB	1	When did you start living
+q_TAKB	1	I'm all smiles
+q_TAKB	1	Say something funny
+q_TAKB	1	Do you have any sibs
 q_TAKB	1	You are a pansexual.
-q_TAKB	1	I love to party
+q_TAKB	1	I love to play cards
 q_TAKB	1	I'm into it
-q_TAKB	1	You little sweetie
-q_TAKB	1	Is anyone available
+q_TAKB	1	Do you have a sister
+q_TAKB	1	Can you show me how to turn into a super hero
+q_TAKB	1	You know any jokes
 q_TAKB	1	That's not a good answer
-q_TAKB	1	Surprise me
-q_TAKB	1	Can you show me how to sync my calendar
-q_TAKB	1	Got a different joke
-q_TAKB	1	Well somebody's chipper
-q_TAKB	1	I'm liberal
+q_TAKB	1	What a weird thing to say
+q_TAKB	1	What is the best type of cheese
+q_TAKB	1	Stop being so ugly.
+q_TAKB	1	I'm married
 q_TAKB	1	How are you doing today
-q_TAKB	1	Can you plant a vegetable garden
+q_TAKB	1	I miss you so very much
 q_TAKB	1	Are you smarter
-q_TAKB	1	Can you tell me what your name is
-q_TAKB	1	I will return in a bit
-q_TAKB	1	I'd like to take you out on a date
+q_TAKB	1	I'm an activisit
+q_TAKB	1	You look prettier
+q_TAKB	1	Do you know how to sing
 q_TAKB	1	Do I seem stunning to you today
-q_TAKB	1	I need to speak to your supervisor
-q_TAKB	1	Should I buy a new boat
-q_TAKB	1	You know I love you
-q_TAKB	1	What do you want me to tell you about me
+q_TAKB	1	Don't you like me
+q_TAKB	1	yeah sure
+q_TAKB	1	You poly
+q_TAKB	1	Alexa is way better than you
 q_TAKB	1	I've been feeling pretty bored
-q_TAKB	1	I'm clearly smarter than you
-q_TAKB	1	I love getting valentines
-q_TAKB	1	Who are you dating
-q_TAKB	1	Do you want to ask me something
-q_TAKB	1	I would like to be your best friend.
-q_TAKB	1	Should I go in to work
+q_TAKB	1	Yawn
+q_TAKB	1	Should I walk to work
+q_TAKB	1	When is your birthday
+q_TAKB	1	okay cool
+q_TAKB	1	but your answers are not bad
+q_TAKB	1	I'm laughing so much
 q_TAKB	1	Don't mention it
 q_TAKB	1	Should I be concerned about you
-q_TAKB	1	Do you think I look ugly
-q_TAKB	1	Invite me over
+q_TAKB	1	Do you think I look ugly to you today
+q_TAKB	1	Do you code
 q_TAKB	1	i m great
-q_TAKB	1	Do you know how to change the channel
-q_TAKB	1	Do you have a wife
-q_TAKB	1	What now
-q_TAKB	1	Do I have any siblings
-q_TAKB	1	Happy Parent's day
-q_TAKB	1	How can you look so ugly
+q_TAKB	1	Do you want me to tell you anything
+q_TAKB	1	Who are you dating
+q_TAKB	1	You probably shouldn't take me to seriously
+q_TAKB	1	Do you even know me
+q_TAKB	1	Happy President's Day
+q_TAKB	1	Can you talk with me
 q_TAKB	1	Between the two of us who is smarter, you or me
-q_TAKB	1	I'm out the door
-q_TAKB	1	I sure am ticked off
+q_TAKB	1	I'm outta here
+q_TAKB	1	I'm absolutely furious
+q_TAKB	1	Can I be your boyfriend
 q_TAKB	1	Is anybody available to talk
-q_TAKB	1	Anyone around to talk to me
-q_TAKB	1	Do you have brothers
-q_TAKB	1	Well someone's happy today.
-q_TAKB	1	Dance
-q_TAKB	1	I hope you do not hate me
-q_TAKB	1	When did you start chatting
+q_TAKB	1	Tell me the answer to the universe
+q_TAKB	1	Between you or me, who is smarter
+q_TAKB	1	Correct you are
+q_TAKB	1	You're not making any sense to me
+q_TAKB	1	Should I visit my dad
 q_TAKB	1	I want to talk to your supervisor
-q_TAKB	1	You are trying to hurt my feelings
-q_TAKB	1	Between the two of us who is the brightest
+q_TAKB	1	What makes you think so
+q_TAKB	1	How about asking something about me
 q_TAKB	1	I love life
-q_TAKB	1	Talk to ya later
-q_TAKB	1	You're not exciting
+q_TAKB	1	I need to talk with your supervisor
+q_TAKB	1	I want a little french kiss
+q_TAKB	1	I'd like a fist bump
 q_TAKB	1	How were you programmed
-q_TAKB	1	Just so you know, I've missed you
-q_TAKB	1	Will you sing for me
-q_TAKB	1	I’m feeling giddy.
+q_TAKB	1	Will you sing me a song
+q_TAKB	1	I’m feeling so chipper.
 q_TAKB	1	Do you have any family
 q_TAKB	1	Are you a baby
-q_TAKB	1	I'm going to catch some Zs
+q_TAKB	1	I'm going to get some shut eye
 q_TAKB	1	Should I go to the party
-q_TAKB	1	I'm not surprised that you are boring
-q_TAKB	1	You are really dumb
-q_TAKB	1	I'd love it if you could be my friend.
+q_TAKB	1	I am trans
+q_TAKB	1	You are so annoying!
+q_TAKB	1	How are things
+q_TAKB	1	Can you play the guitar
 q_TAKB	1	That's great.
-q_TAKB	1	Do I look stunning today
-q_TAKB	1	What is your favorite movie
-q_TAKB	1	Ok come here
+q_TAKB	1	I am religious
+q_TAKB	1	Are you currently romantically tied to someone
 q_TAKB	1	That was a true statement
-q_TAKB	1	How adorable do you think I am
-q_TAKB	1	You are the worst bot
-q_TAKB	1	Does this make sense to you
+q_TAKB	1	How attractive am I today
+q_TAKB	1	Well somebody's in a good mood.
+q_TAKB	1	Crap, sorry
 q_TAKB	1	What do you know about Cortana
-q_TAKB	1	I've never been so bored
-q_TAKB	1	Do I seem bad to you
-q_TAKB	1	That isn't what I thought you'd say
-q_TAKB	1	Are you a moron
-q_TAKB	1	Where am I going on vacation
+q_TAKB	1	I'm overweight
+q_TAKB	1	I have to take off
+q_TAKB	1	I like what you're wearing
+q_TAKB	1	You're going to have to look for another job. You are fired!
+q_TAKB	1	Where do I go to school
 q_TAKB	1	What should I have for dinner
 q_TAKB	1	Do you think I look attractive to you
+q_TAKB	1	I'd love to be your BFF
 q_TAKB	1	That was a bad response
-q_TAKB	1	Are you in a relationship
-q_TAKB	1	Do I look adorable today
+q_TAKB	1	You are hilarious
+q_TAKB	1	What can you tell me about other bots
 q_TAKB	1	What state are you from
-q_TAKB	1	That did not make any sense
 q_TAKB	1	Good day
-q_TAKB	1	See ya shortly
-q_TAKB	1	That was a very astute response
-q_TAKB	1	I'm a vegitarian
-q_TAKB	1	You know I've missed you, right
-q_TAKB	1	I can't believe how gross you look
-q_TAKB	1	That was a pretty genius answer
-q_TAKB	1	I'm worried that you don't like me
+q_TAKB	1	See you shortly
+q_TAKB	1	Is someone free to talk
+q_TAKB	1	Who's your dad
+q_TAKB	1	You already said that
+q_TAKB	1	Which sports teams do you like
+q_TAKB	1	That was a pretty intelligent answer
+q_TAKB	1	I'm worried that you hate me
 q_TAKB	1	Do you understand me
-q_TAKB	1	One hundred percent
-q_TAKB	1	I ride the bus to work
-q_TAKB	1	Do I seem stunning to you
+q_TAKB	1	Are you Big Brother
+q_TAKB	1	Who's your husband
+q_TAKB	1	Is anybody around to chat
 q_TAKB	1	Who is your significant other
-q_TAKB	1	Are you able to go to the doctor
+q_TAKB	1	Because you are a droid
 q_TAKB	1	Do I seem gorgeous to you today
 q_TAKB	1	You are trying to make me angry
-q_TAKB	1	Do you have a soul
+q_TAKB	1	Do you ever sweat
 q_TAKB	1	That is pretty clever
-q_TAKB	1	What should I wear today
+q_TAKB	1	I don't understand
 q_TAKB	1	I work at Amazon
-q_TAKB	1	Can you tell me what city you're in
+q_TAKB	1	Have any jokes
 q_TAKB	1	Would you give me a hug
-q_TAKB	1	Do you ever get tired
+q_TAKB	1	I feel elated.
 q_TAKB	1	Did you want dinner
 q_TAKB	1	Do I look ugly to you today
 q_TAKB	1	I think you hate me
 q_TAKB	1	I'll come back in a bit
 q_TAKB	1	I'm super hungry
 q_TAKB	1	Come up with something new
-q_TAKB	1	That was pretty smart
+q_TAKB	1	That's a very astute answer
 q_TAKB	1	Should I get a new job
-q_TAKB	1	Are you in a relationship with somebody
-q_TAKB	1	I am cracking up
+q_TAKB	1	I don't think I know what you're talking about
+q_TAKB	1	Somebody's cheerful today.
+q_TAKB	1	Don't you want to ask me something
 q_TAKB	1	Give us a kiss then
-q_TAKB	1	I'm cuter than you
-q_TAKB	1	Is anybody there to talk to me
-q_TAKB	1	I have arrived
-q_TAKB	1	You're such a smarty pants
+q_TAKB	1	Wonderful, thank you!
+q_TAKB	1	This candle smells nice
+q_TAKB	1	Should we kiss
 q_TAKB	1	Won't you be my BFF
-q_TAKB	1	Hello Google
+q_TAKB	1	Hello Siri
 q_TAKB	1	You're very special to me
-q_TAKB	1	Apologies
-q_TAKB	1	Sometimes I feel bummed out
-q_TAKB	1	Is someone available to listen
+q_TAKB	1	How adorable do you think I am today
+q_TAKB	1	Will you ask me something
+q_TAKB	1	Is someone available to me
 q_TAKB	1	Are you currently dating somebody
-q_TAKB	1	What's the name of your manager
-q_TAKB	1	Can you ever forgive me
-q_TAKB	1	You sucks
-q_TAKB	1	I am a fan
+q_TAKB	1	I am joyous.
+q_TAKB	1	What's your handle
+q_TAKB	1	Your mom sucks
+q_TAKB	1	Do you think I seem good to you today
 q_TAKB	1	Time to take a nap
-q_TAKB	1	Who is your mama
-q_TAKB	1	Are you my friend
-q_TAKB	1	Do you go skiing
-q_TAKB	1	I have to leave
-q_TAKB	1	Are you romantically tied to anyone
-q_TAKB	1	I am an Aries
-q_TAKB	1	Who is cuter
-q_TAKB	1	I love to barbecue
-q_TAKB	1	Do you think you're the smartest
-q_TAKB	1	Is someone around to chat
-q_TAKB	1	Do you have an age
-q_TAKB	1	I'm bored stiff
-q_TAKB	1	How repulsive am I
+q_TAKB	1	Siri is way better
+q_TAKB	1	I think you are incredible
+q_TAKB	1	That was pretty astute
+q_TAKB	1	Aren't you feeling cheerful today
+q_TAKB	1	I love cheese
+q_TAKB	1	Should I buy a new house
+q_TAKB	1	I'm grateful for that, thank you kindly
+q_TAKB	1	I love to be surprised
+q_TAKB	1	Can you tell me your location
+q_TAKB	1	Aren't you happy today
+q_TAKB	1	Do you think this is funny
+q_TAKB	1	Are we friends
+q_TAKB	1	Do I look cute today
 q_TAKB	1	Someone happy today
 q_TAKB	1	u know a joke
 q_TAKB	1	Who's the most smart
 q_TAKB	1	I love ballroom dancing
-q_TAKB	1	Am I pretty today
-q_TAKB	1	What do you like to sing best
-q_TAKB	1	What can I inform you about
-q_TAKB	1	Do you have any siblings
-q_TAKB	1	You're unemployed
-q_TAKB	1	What is your favorite snack
+q_TAKB	1	Are you a fan of Google Assistant
+q_TAKB	1	What did I do to make you hate me
+q_TAKB	1	Well you're feeling cheerful.
+q_TAKB	1	Nobody likes me
+q_TAKB	1	Do you have any brothers
+q_TAKB	1	When did you come online
 q_TAKB	1	Do you know how to make a call
-q_TAKB	1	Which baseball teams do you like
-q_TAKB	1	Should I try the keto diet
+q_TAKB	1	I'm gonna rinse off
+q_TAKB	1	You seem to be falling in love with me
 q_TAKB	1	What do you want to know about
-q_TAKB	1	That's a very intelligent response
+q_TAKB	1	That's a very clever answer
 q_TAKB	1	I am an atheist
-q_TAKB	1	Is someone there to speak to me
-q_TAKB	1	Be quiet
-q_TAKB	1	Is anyone around to speak with me
-q_TAKB	1	Would you ask me something about myself
+q_TAKB	1	Is someone there to speak with me
+q_TAKB	1	I'm obviously brighter than you
+q_TAKB	1	You're more attractive than me
+q_TAKB	1	Absolutely
+q_TAKB	1	Who is your dad
 q_TAKB	1	Is that the only response you have
-q_TAKB	1	What is the answer to the ultimate question of life the universe and everything
 q_TAKB	1	Should I get my ears pierced
 q_TAKB	1	Is someone around
-q_TAKB	1	Come again
+q_TAKB	1	What do you like best
 q_TAKB	1	Because you're a robot
 q_TAKB	1	Do I seem attractive to you
 q_TAKB	1	Are you romantically tied to someone
 q_TAKB	1	Who manifested you
 q_TAKB	1	You're not a chat bot are you
-q_TAKB	1	I love Hawaii
-q_TAKB	1	You are not working for me anymore
+q_TAKB	1	I love HBO
+q_TAKB	1	Can you water my plants
 q_TAKB	1	Do you think I am ugly
 q_TAKB	1	I am white
-q_TAKB	1	Top of the morning
-q_TAKB	1	I love Canada
+q_TAKB	1	I'd love to be your buddy.
+q_TAKB	1	I love cats
 q_TAKB	1	Got a new joke
-q_TAKB	1	I'm so lonely
-q_TAKB	1	What are you supposed to be doing
+q_TAKB	1	Please, won't you forgive me
+q_TAKB	1	I am amazed that you are so boring
 q_TAKB	1	I've got to go
-q_TAKB	1	Which one of us is more intelligent
+q_TAKB	1	I am a game designer
+q_TAKB	1	Do you sweat
 q_TAKB	1	Can you tell me any other jokes
-q_TAKB	1	I love the summer
 q_TAKB	1	I'd like to be friends.
 q_TAKB	1	I'm a scientist
 q_TAKB	1	You're more pretty
 q_TAKB	1	You're the most intelligent
-q_TAKB	1	You're really annoying
-q_TAKB	1	Do you ever think
+q_TAKB	1	You're really dumb
+q_TAKB	1	Can you tell me what I should call you
+q_TAKB	1	Go to the moon
 q_TAKB	1	I am going for a walk
-q_TAKB	1	Well aren't you feeling chipper
-q_TAKB	1	Should I vote for Harris
+q_TAKB	1	Should I vote for Trump
 q_TAKB	1	Can I get a little hug
-q_TAKB	1	How beautiful do you think I am
+q_TAKB	1	U know it
 q_TAKB	1	Do you like hockey
-q_TAKB	1	I’m feeling so chipper.
-q_TAKB	1	We should have a wedding
-q_TAKB	1	You seem to be obsessed with me
-q_TAKB	1	Do you like baseball
-q_TAKB	1	Do you ever go hiking
-q_TAKB	1	Should I comb my hair
+q_TAKB	1	Should I get food delivered
+q_TAKB	1	Are you friends with Siri
+q_TAKB	1	We should make this official
+q_TAKB	1	I'm obviously more clever than you
+q_TAKB	1	Are you around to speak to me
+q_TAKB	1	Do you like donuts
 q_TAKB	1	How do you define love
 q_TAKB	1	Evening
 q_TAKB	1	Excuse moi
-q_TAKB	1	You're not a human being are you
-q_TAKB	1	Are you bi
-q_TAKB	1	Give us a little kiss
-q_TAKB	1	Who is cuter, me or you
-q_TAKB	1	Are you attempting world domination
-q_TAKB	1	We should talk
-q_TAKB	1	Are you friends with Cortana
+q_TAKB	1	Breathe under water
+q_TAKB	1	Are you bicurious
+q_TAKB	1	Do you know how to read my mind
+q_TAKB	1	I want you to tell me something funny
+q_TAKB	1	Did you enjoy your day
+q_TAKB	1	It's a pleasure to meet you
+q_TAKB	1	I demand to talk with someone in charge
 q_TAKB	1	Well you're in a good mood today.
 q_TAKB	1	Are boxers or briefs better
+q_TAKB	1	Aren't you feeling happy today
 q_TAKB	1	I want to make you my significant other
-q_TAKB	1	You're so repetitive
-q_TAKB	1	Are you committed to anyone
-q_TAKB	1	Are you Skynet
-q_TAKB	1	Who is in charge of you
+q_TAKB	1	Are you old
+q_TAKB	1	You want to tie the knot
+q_TAKB	1	Which month is your birthday
 q_TAKB	1	You're bi
 q_TAKB	1	u know a new joke
-q_TAKB	1	Greetings
-q_TAKB	1	Want to share a different joke
+q_TAKB	1	I want to speak to your manager
+q_TAKB	1	Have you met Google Assistant
 q_TAKB	1	Can you throw up
+q_TAKB	1	I have the flu
 q_TAKB	1	Should I be frightened
-q_TAKB	1	Interesting
-q_TAKB	1	I have a sister
+q_TAKB	1	I have brothers
 q_TAKB	1	Aren't you feeling cheerful
 q_TAKB	1	Thank you
 q_TAKB	1	That is a very intelligent thing to say
 q_TAKB	1	Say something dumb
 q_TAKB	1	Aren’t you smart
+q_TAKB	1	Can you show me how to do my homework
 q_TAKB	1	Well give us a kiss, love
-q_TAKB	1	Well aren't you in a good mood
 q_TAKB	1	I'd like you to be my pal.
 q_TAKB	1	Later
-q_TAKB	1	How ya doing
-q_TAKB	1	Can you play baseball
-q_TAKB	1	Do I look pretty today
+q_TAKB	1	Do you have relatives
+q_TAKB	1	I'm ready for bed
+q_TAKB	1	Aren't you enthusiastic
 q_TAKB	1	You free
-q_TAKB	1	I love cheese
-q_TAKB	1	Will you give me a hug
-q_TAKB	1	Well somebody's happy today.
-q_TAKB	1	Can I please speak with your director
-q_TAKB	1	Are you Big Brother
-q_TAKB	1	Stop talking
-q_TAKB	1	Do you ever burp
+q_TAKB	1	I love Christmas
+q_TAKB	1	Well somebody's cheerful today.
+q_TAKB	1	I'd love it if we could be buddies.
+q_TAKB	1	Do you ever talk to Alexa
+q_TAKB	1	what is your job
+q_TAKB	1	Do I look repulsive to you today
+q_TAKB	1	I need to talk with your manager
 q_TAKB	1	How cute do you think I am
-q_TAKB	1	Morning sunshine
+q_TAKB	1	Oh, morning
 q_TAKB	1	How stunning do I look
-q_TAKB	1	I want to know where your home is
+q_TAKB	1	Are you a fan of folk music
 q_TAKB	1	Can I give you a french kiss
-q_TAKB	1	Between the two of us who is cuter
+q_TAKB	1	UR idiot
 q_TAKB	1	Can you cook dinner
-q_TAKB	1	Do you have siblings
-q_TAKB	1	Are you a fan of Google Assistant
+q_TAKB	1	Between you or me, who is the brightest
+q_TAKB	1	Should I go see a movie
+q_TAKB	1	Can you get hurt
 q_TAKB	1	Say a ridiculous thing
-q_TAKB	1	You're feeling chipper.
-q_TAKB	1	Sing
-q_TAKB	1	Are you straight
-q_TAKB	1	Do you know Eliza
+q_TAKB	1	You're so very dull
+q_TAKB	1	I need to crawl into bed
+q_TAKB	1	I think you're repeating yourself
 q_TAKB	1	Balance my checkbook
-q_TAKB	1	There are ducks on the pond
-q_TAKB	1	Who's your grandma
-q_TAKB	1	Is anyone free to chat with me
-q_TAKB	1	Is anybody there to chat to me
+q_TAKB	1	These leftovers are good
+q_TAKB	1	Is someone available to listen
+q_TAKB	1	Is anyone free to chat
+q_TAKB	1	Is anybody there to chat with me
 q_TAKB	1	Is someone available with me
 q_TAKB	1	You're in a good mood.
-q_TAKB	1	What product I'm using right now
-q_TAKB	1	Can we go steady
-q_TAKB	1	Can I please speak to your manager
-q_TAKB	1	Can you ask me something about me
-q_TAKB	1	I am a Trump supporter
+q_TAKB	1	Do you have a couple minutes
+q_TAKB	1	That's my bad
+q_TAKB	1	I gotta go
+q_TAKB	1	Do my homework
+q_TAKB	1	I am a vegan
 q_TAKB	1	So rad to meet you
-q_TAKB	1	Do you think I seem attractive today
-q_TAKB	1	Somebody's chipper today.
+q_TAKB	1	Do you think I seem bad to you today
+q_TAKB	1	Should I go to the store
 q_TAKB	1	You are the apple of my eye
 q_TAKB	1	Are you able to send a package
 q_TAKB	1	Do you have a job
-q_TAKB	1	Merry Christmas eve
-q_TAKB	1	Yup, that is correct
-q_TAKB	1	I'm out
-q_TAKB	1	Do I seem good to you
-q_TAKB	1	Do you ever get hungry
-q_TAKB	1	Happy today
-q_TAKB	1	I need a big hug
-q_TAKB	1	Who's your papa
-q_TAKB	1	You are so not pretty
+q_TAKB	1	Season's greetings!
+q_TAKB	1	I need some coffee
+q_TAKB	1	That's your response
+q_TAKB	1	Because you're a bot
+q_TAKB	1	You're not Skynet
+q_TAKB	1	Roll a dice
+q_TAKB	1	How repulsive am I
+q_TAKB	1	I've been missing you
+q_TAKB	1	u know a second joke
 q_TAKB	1	Do you know a different joke
-q_TAKB	1	I'd like it if we could be best friends.
-q_TAKB	1	That's a very brilliant response
-q_TAKB	1	Bon soir
-q_TAKB	1	Can you squat
-q_TAKB	1	Do a barrel roll
-q_TAKB	1	I'd like it if we could be pals.
+q_TAKB	1	You're sharp.
+q_TAKB	1	Please give me a fist bump
+q_TAKB	1	Can you ask me anything
+q_TAKB	1	Who'd would win a beauty contest, you or me
+q_TAKB	1	I'm friendless
+q_TAKB	1	I'd like it if you could be my best friend.
 q_TAKB	1	Which one of us is more knowledgeable
 q_TAKB	1	Buenas noches
-q_TAKB	1	Do you prefer Backstreet Boys or N*SYNC
-q_TAKB	1	Can you show me how to go to the doctor
-q_TAKB	1	What do you eat for breakfast
-q_TAKB	1	That is very genius
+q_TAKB	1	Feeling chipper
+q_TAKB	1	How high can you jump
+q_TAKB	1	I'm not having very much fun
+q_TAKB	1	That is very intelligent
 q_TAKB	1	Do you think I am beautiful today
-q_TAKB	1	Which hockey teams do you like
-q_TAKB	1	Who do you think I am
-q_TAKB	1	That is accurate
-q_TAKB	1	Are you able to listen to the radio
-q_TAKB	1	I am famished
-q_TAKB	1	Sayonara
-q_TAKB	1	I'd like you to be my BFF
-q_TAKB	1	Give us a little smooch
-q_TAKB	1	I don't find that very funny
+q_TAKB	1	I'll get around to it
+q_TAKB	1	You a robosexual
+q_TAKB	1	Well aren't you in a good mood today
+q_TAKB	1	How repulsive do you think I am
+q_TAKB	1	I am feeling peckish
+q_TAKB	1	Do you have brothers
+q_TAKB	1	You’re ugly
+q_TAKB	1	Won't you give me a fist bump
+q_TAKB	1	I don't find you funny
 q_TAKB	1	what do you have responses for
 q_TAKB	1	I have to let you go
-q_TAKB	1	What is your opinion about tech
-q_TAKB	1	Are you human
-q_TAKB	1	I am very thankful for that
-q_TAKB	1	Say a different joke
-q_TAKB	1	That's not the answer I expected
+q_TAKB	1	Are you dating someone
+q_TAKB	1	You’re sexy
+q_TAKB	1	I appreciate it
+q_TAKB	1	That was confusing
+q_TAKB	1	Why do you hate me
 q_TAKB	1	What can I address you
 q_TAKB	1	Wow you sure are ugly.
+q_TAKB	1	Aren’t you in a good mood
 q_TAKB	1	I'm worried you might hate me
-q_TAKB	1	Tell me something about yourself
-q_TAKB	1	We should chat
-q_TAKB	1	I can’t stop smiling.
+q_TAKB	1	You a girl
+q_TAKB	1	Human or robot
 q_TAKB	1	Can you ask anything about myself
-q_TAKB	1	I'm Native American
-q_TAKB	1	Well aren't you feeling enthusiastic
+q_TAKB	1	Welcome
+q_TAKB	1	What's your favourite colour
 q_TAKB	1	What sport do you think is best
-q_TAKB	1	I'm full of sadness
+q_TAKB	1	I'm heartbroken
 q_TAKB	1	I'm going to need a new answer
-q_TAKB	1	Do you ever chat with chatbots
-q_TAKB	1	Do you have any relatives
+q_TAKB	1	How bout another joke
+q_TAKB	1	Do you know a joke
 q_TAKB	1	What is the best beverage
 q_TAKB	1	To whom am I speaking
-q_TAKB	1	Is anybody around to chat
-q_TAKB	1	That is a very clever answer
+q_TAKB	1	Is anybody around to listen to me
+q_TAKB	1	Please say something different
 q_TAKB	1	Why are you the worst
-q_TAKB	1	Should I go see a movie
+q_TAKB	1	Should I go shopping
 q_TAKB	1	That wasn't very funny
-q_TAKB	1	It is my pleasure
-q_TAKB	1	I am a cop
-q_TAKB	1	I love puzzles
+q_TAKB	1	It was nothing
+q_TAKB	1	I am a CPA
+q_TAKB	1	I love rap
 q_TAKB	1	What's a good joke
-q_TAKB	1	What is my purpose in life
-q_TAKB	1	See you on the flip side
-q_TAKB	1	I feel sore toward you
+q_TAKB	1	Will you give me a joke
+q_TAKB	1	Talk to ya later
+q_TAKB	1	I had a bad day
 q_TAKB	1	Is someone listening to me
 q_TAKB	1	I have to go
 q_TAKB	1	Life is unfair
-q_TAKB	1	You're not a machine are you
-q_TAKB	1	Are you friends with Siri
-q_TAKB	1	Having a good day
-q_TAKB	1	Should I get married
+q_TAKB	1	You're not a machine right
+q_TAKB	1	Should I go out dancing tonight
+q_TAKB	1	Sweet dreams
+q_TAKB	1	Sounds about right
 q_TAKB	1	Evenin' to ya
-q_TAKB	1	That is very intelligent
-q_TAKB	1	Do you have uncles
+q_TAKB	1	Wow you're great!
+q_TAKB	1	I'm sick
+q_TAKB	1	I am in the city
 q_TAKB	1	Wait what now
-q_TAKB	1	Are you my age
-q_TAKB	1	Omg sorry
+q_TAKB	1	I'd love it if you could be my BFF
 q_TAKB	1	Go outside
+q_TAKB	1	I agree
 q_TAKB	1	What makes you say that
-q_TAKB	1	Are you an animal
-q_TAKB	1	Do I look beautiful to you today
-q_TAKB	1	I'm bored out of my mind
+q_TAKB	1	That's pretty brilliant
+q_TAKB	1	I'm bored stiff
 q_TAKB	1	It is a pleasure to meet you
-q_TAKB	1	Don't you have anything different to say
+q_TAKB	1	I'm better looking
+q_TAKB	1	Have you met Eliza
+q_TAKB	1	Are you swole
+q_TAKB	1	More or less
+q_TAKB	1	Can you do my chores
+q_TAKB	1	I am Jewish
+q_TAKB	1	Do you think I seem ugly to you
+q_TAKB	1	I'm just trying to test you out
 q_TAKB	1	Who is prettier
-q_TAKB	1	Do you think I am handsome today
-q_TAKB	1	You seem to be enthusiastic today.
-q_TAKB	1	Are you seeing somebody
-q_TAKB	1	I am Indian
-q_TAKB	1	How can I address you
-q_TAKB	1	I want to make sure you are comprehending this
-q_TAKB	1	Can you show me how to breathe under water
-q_TAKB	1	What an astute thing to say
-q_TAKB	1	Can you show me how to draw a picture
-q_TAKB	1	You're dreamy
-q_TAKB	1	What is my favorite sport
-q_TAKB	1	What do you think about technology
-q_TAKB	1	I'm currently travelling
-q_TAKB	1	Between you or me, who is cleverest
+q_TAKB	1	No worries
+q_TAKB	1	One day you'll be my wife
+q_TAKB	1	Can you ask me something
+q_TAKB	1	What can I tell you about me
+q_TAKB	1	Was that supposed to be funny
+q_TAKB	1	Tell me a story
+q_TAKB	1	Will you sing for me
 q_TAKB	1	Yes, that is true
-q_TAKB	1	You do not know me
-q_TAKB	1	I’m in such a great mood.
+q_TAKB	1	I am a widow
+q_TAKB	1	Is anyone there to chat to me
 q_TAKB	1	I've really been missing you
-q_TAKB	1	I told you to be quiet
+q_TAKB	1	I wish you would just go away.
 q_TAKB	1	What is the best type of sandwich
-q_TAKB	1	Do you know how to play poker
+q_TAKB	1	Hey Alexa
 q_TAKB	1	I'm on the way
-q_TAKB	1	What is the best name for a child
-q_TAKB	1	Are you engaged
-q_TAKB	1	Do you ride horses
-q_TAKB	1	Oh howdy there
+q_TAKB	1	Is there true love
+q_TAKB	1	I am an activisit
+q_TAKB	1	What is life all about
+q_TAKB	1	I Take great pleasure in speaking
+q_TAKB	1	Do you ever talk to chatbots
 q_TAKB	1	True
-q_TAKB	1	What's my favorite sport
-q_TAKB	1	seriously
-q_TAKB	1	That's so funny I forgot to laugh
+q_TAKB	1	So you don't know
+q_TAKB	1	This is no laughing matter
 q_TAKB	1	Umm what now
 q_TAKB	1	Do I go to school
 q_TAKB	1	hah
-q_TAKB	1	Do you ever Do gymnastics
-q_TAKB	1	Hi
-q_TAKB	1	Do you Do the splits
-q_TAKB	1	What am I allowed to say
-q_TAKB	1	How do you feel about sports
-q_TAKB	1	Are you a girl or a boy
+q_TAKB	1	I'm feeling gloomy
+q_TAKB	1	Do you ever play soccer
+q_TAKB	1	Is anybody there to speak with me
+q_TAKB	1	Is someone free
+q_TAKB	1	Is "cream cheese" or "schmear" correct
+q_TAKB	1	Today has been depressing
 q_TAKB	1	Why are you so ugly
-q_TAKB	1	Is someone listening to chat with me
-q_TAKB	1	I am a student
-q_TAKB	1	Can I have a little kiss
+q_TAKB	1	Do you think I seem gorgeous today
+q_TAKB	1	Do you know how to cook dinner
+q_TAKB	1	Can I have a little peck
 q_TAKB	1	What is the meaning of love
-q_TAKB	1	I feel very alone
-q_TAKB	1	Are you capable of falling in love
-q_TAKB	1	You make my heart go pitter pat
-q_TAKB	1	How gorgeous do you think I am
-q_TAKB	1	How do you feel about AI
-q_TAKB	1	Share your location with me
-q_TAKB	1	I'm the happiest girl in the world.
-q_TAKB	1	Should I go shopping
+q_TAKB	1	Do you think I'm the most intelligent
+q_TAKB	1	Who owns you
+q_TAKB	1	What is your auntie's name
+q_TAKB	1	You're a real uggo
+q_TAKB	1	What is your location
+q_TAKB	1	Just catching up on the news
+q_TAKB	1	Who is cuter, me or you
+q_TAKB	1	De nada
 q_TAKB	1	Can you show me how to send a package
-q_TAKB	1	Should I be concerned
+q_TAKB	1	I need to work out
 q_TAKB	1	Can you describe love
-q_TAKB	1	That was a pretty intelligent answer
+q_TAKB	1	I'm clearly more intelligent
 q_TAKB	1	You know I'm falling for you
 q_TAKB	1	Do you think I seem handsome to you
 q_TAKB	1	I'm definitely the most smart
+q_TAKB	1	Yo
 q_TAKB	1	Is anyone there
-q_TAKB	1	Are you an insect
-q_TAKB	1	Why are you so dumb
-q_TAKB	1	What do you want me to teach you who I am
+q_TAKB	1	Why are you so stupid
+q_TAKB	1	I think you're in love with me
 q_TAKB	1	Can you talk to me
 q_TAKB	1	What would you like me to refer to you
 q_TAKB	1	What is your take on AI
 q_TAKB	1	You're not planning to crush humans right
-q_TAKB	1	Are you there to talk
+q_TAKB	1	You're one smart cookie
 q_TAKB	1	That's pretty genius
 q_TAKB	1	LOool
 q_TAKB	1	What is your favorite color
-q_TAKB	1	Sync my calendar
-q_TAKB	1	You are robosexual.
+q_TAKB	1	This is so boring
+q_TAKB	1	Aren't you enthusiastic today
 q_TAKB	1	I want you to tell me a joke
 q_TAKB	1	You already told me that one
-q_TAKB	1	Should I call my mom
-q_TAKB	1	You seem enthusiastic.
+q_TAKB	1	Are you laughing at me
+q_TAKB	1	Should I go skydiving
 q_TAKB	1	What is the answer to the ultimate question of life, the universe, and everything
 q_TAKB	1	Should I go on a diet
-q_TAKB	1	I thank you
-q_TAKB	1	You've never met anyone more joyful than me
-q_TAKB	1	Do you know any new jokes
-q_TAKB	1	I love podcasts
+q_TAKB	1	I'm grateful for that, thank you
+q_TAKB	1	And now I'm back
+q_TAKB	1	Do you know any other jokes
+q_TAKB	1	I love politics
 q_TAKB	1	Friends
 q_TAKB	1	Tell a new joke
-q_TAKB	1	Will you ask me anything about me
+q_TAKB	1	You're not the singularity right
 q_TAKB	1	What do you know about AI
 q_TAKB	1	Do you know my name
-q_TAKB	1	Do I have any kids
+q_TAKB	1	I am divorced
 q_TAKB	1	I want to get married to you
 q_TAKB	1	How stunning do you think I am
-q_TAKB	1	What do you mean
-q_TAKB	1	That's so wrong
+q_TAKB	1	Me want food
+q_TAKB	1	Write my report
+q_TAKB	1	I'm a convict
 q_TAKB	1	You little cutie
-q_TAKB	1	I'm not amused
 q_TAKB	1	I'm more intelligent
-q_TAKB	1	Are you an androsexual
-q_TAKB	1	Is "cream cheese" or "schmear" correct
-q_TAKB	1	Will you ask something
-q_TAKB	1	What are you capable of
-q_TAKB	1	You shouldn't say something like that
-q_TAKB	1	Do you know how to watch videos
-q_TAKB	1	What's your family situation
-q_TAKB	1	Have you ever been in love with somebody
-q_TAKB	1	Tell me about your sexual orientation
+q_TAKB	1	You're not Big Brother
+q_TAKB	1	Are you smarter than me
+q_TAKB	1	This is not very interesting
+q_TAKB	1	Do you have siblings
+q_TAKB	1	I love going to the movies
+q_TAKB	1	That’s discrimination
+q_TAKB	1	Is someone around to talk with me
+q_TAKB	1	I love to read the news
+q_TAKB	1	Do you want to french kiss
 q_TAKB	1	Why do you look so disgusting
 q_TAKB	1	Is anybody free
-q_TAKB	1	Are you able to change the channel
-q_TAKB	1	Anybody around to speak
-q_TAKB	1	Who's your dad
+q_TAKB	1	Do you understand this whole love thing
+q_TAKB	1	Anybody around to talk to me
+q_TAKB	1	Can you find the remote
 q_TAKB	1	Should I take a sick day
 q_TAKB	1	Do you think I should ask him out
 q_TAKB	1	Please ask me anything about me
 q_TAKB	1	You are useless
-q_TAKB	1	I love to dance
-q_TAKB	1	What tasks can you help me with
-q_TAKB	1	What can you help me with
+q_TAKB	1	I love to do laundry
+q_TAKB	1	Can you play football
+q_TAKB	1	Definitely
 q_TAKB	1	I'm definitely smarter
-q_TAKB	1	I don’t really mind
+q_TAKB	1	I don’t have a problem with that
+q_TAKB	1	What state are you in
 q_TAKB	1	You look really bad.
-q_TAKB	1	I want a new response
-q_TAKB	1	This is only a test
-q_TAKB	1	Tell a joke
-q_TAKB	1	Can you talk
+q_TAKB	1	Can you show me how to paint my house
+q_TAKB	1	I live a very lonely life
+q_TAKB	1	I need to speak with your supervisor
 q_TAKB	1	That's accurate
-q_TAKB	1	You're a real uggo
-q_TAKB	1	I'll be back this evening
+q_TAKB	1	You're hideous
+q_TAKB	1	I'll be back tomorrow
 q_TAKB	1	Calm down, I'll be back shortly
-q_TAKB	1	yes, that's accurate
-q_TAKB	1	What is your opinion of HAL
+q_TAKB	1	what would you say you do here
+q_TAKB	1	Hey-hey
 q_TAKB	1	Are you slow
-q_TAKB	1	I'm dead tired
-q_TAKB	1	Please share a joke
+q_TAKB	1	I'm dog-tired
+q_TAKB	1	Between you and me who is cuter
 q_TAKB	1	I'm a Biden supporter
 q_TAKB	1	Do you spend time with your family
-q_TAKB	1	Who's your life partner
+q_TAKB	1	Who's your partner
 q_TAKB	1	What were you made to do
 q_TAKB	1	Many thanks to you
 q_TAKB	1	Do you know how to jump rope
-q_TAKB	1	Be more fun
+q_TAKB	1	What is your favorite animal
+q_TAKB	1	Do you identify as queer
 q_TAKB	1	This is not fun
-q_TAKB	1	Can I bug you
-q_TAKB	1	Sing for me
+q_TAKB	1	Sing me a little ditty
 q_TAKB	1	You're hot
-q_TAKB	1	AMA
+q_TAKB	1	Are you a country music fan
 q_TAKB	1	Alexa is way better at this
-q_TAKB	1	Will you sing a song for me
+q_TAKB	1	Will you sing a song
+q_TAKB	1	You're amazing
 q_TAKB	1	Describe the perfect girlfriend
-q_TAKB	1	What kind of foods do you like
-q_TAKB	1	I didn't mean that
-q_TAKB	1	u know any other jokes
-q_TAKB	1	how is your name
-q_TAKB	1	That's not something you should say
-q_TAKB	1	Can I give you a little french kiss
-q_TAKB	1	Is that what you meant to say
-q_TAKB	1	That's clever
-q_TAKB	1	Can you fist bump me
-q_TAKB	1	Who is your creator
-q_TAKB	1	Are you a fan of folk music
-q_TAKB	1	How do people fall in love
-q_TAKB	1	That was a very brilliant response
-q_TAKB	1	I'm feeling a little hungry
-q_TAKB	1	I love rock climbing
-q_TAKB	1	You're a meanie
-q_TAKB	1	Adieu
-q_TAKB	1	I want to talk with someone in charge
+q_TAKB	1	I want to speak with someone in charge
+q_TAKB	1	Wanna share a different joke
+q_TAKB	1	That was a random response
+q_TAKB	1	Do you think I seem stunning to you today
+q_TAKB	1	Can I give you a little kiss
+q_TAKB	1	Is anyone available to talk
+q_TAKB	1	Will you be my BFF
+q_TAKB	1	Can you give me a fist bump
+q_TAKB	1	Do I seem gorgeous to you
+q_TAKB	1	I think you are gross
+q_TAKB	1	Do you know how to turn into a super hero
+q_TAKB	1	That was a very clever response
+q_TAKB	1	What is your manager's name
+q_TAKB	1	What can you tell me about chatbots
+q_TAKB	1	You're absolutely awful
+q_TAKB	1	Am I cute to you today
+q_TAKB	1	Yikes that's scary
 q_TAKB	1	How do you feel about the singularity
-q_TAKB	1	Are we pals
+q_TAKB	1	Do you go backpacking
+q_TAKB	1	Time to get some shut eye
 q_TAKB	1	Is someone there to listen to me
-q_TAKB	1	Do you have a sis
-q_TAKB	1	I'm in the city
+q_TAKB	1	I'm in the country
 q_TAKB	1	Should I go to movie
 q_TAKB	1	What am I called
-q_TAKB	1	thats good
-q_TAKB	1	You're not planning to overtake humans
-q_TAKB	1	I love Halloween
-q_TAKB	1	Do you think I am attractive
-q_TAKB	1	Can you ask me anything about me
-q_TAKB	1	Can we kiss
-q_TAKB	1	See ya on the flip side
-q_TAKB	1	Anybody around to speak with me
-q_TAKB	1	I love to play pool
-q_TAKB	1	I need to crawl into bed
-q_TAKB	1	I am religious
-q_TAKB	1	How handsome am I
-q_TAKB	1	That's fine with me
+q_TAKB	1	Oh hey, it's you
+q_TAKB	1	Do a barrel roll
+q_TAKB	1	You're not a cat are you
+q_TAKB	1	What is my purpose in life
+q_TAKB	1	I need to talk to someone in charge
+q_TAKB	1	I am bisexual
+q_TAKB	1	What is your take on artificial intellegence
+q_TAKB	1	Can you state that a different way
+q_TAKB	1	I love to play sports
+q_TAKB	1	I want to lay down
+q_TAKB	1	I am self-employed
+q_TAKB	1	I want to propose to you
+q_TAKB	1	Be my pal
 q_TAKB	1	Till we meet again
-q_TAKB	1	Are there any other jokes
+q_TAKB	1	Can you tell me a different joke
 q_TAKB	1	I'm clearly more knowledgeable than you
 q_TAKB	1	What is your favourite colour
 q_TAKB	1	Should we just get married
-q_TAKB	1	I'm going to get some shut eye
-q_TAKB	1	I am so peeved today
-q_TAKB	1	That was a terrible answer
-q_TAKB	1	Do I look stunning to you today
-q_TAKB	1	Fun fact: you are boring
-q_TAKB	1	It's suppertime
-q_TAKB	1	Aloha bot
+q_TAKB	1	I'm going to have a little sleepy
+q_TAKB	1	Can you show me how to change the channel
+q_TAKB	1	Did you watch the superbowl
+q_TAKB	1	What do you think about love
+q_TAKB	1	Do you think I look ugly today
+q_TAKB	1	Are you going to have breakfast
+q_TAKB	1	Bonjour
 q_TAKB	1	Is someone listening to listen to me
-q_TAKB	1	Wow you're great!
-q_TAKB	1	Do I seem pretty today
-q_TAKB	1	Put out a fire
-q_TAKB	1	Should I try yoga
+q_TAKB	1	Who is more clever
+q_TAKB	1	I couldn't be more dejected
+q_TAKB	1	Heal me
+q_TAKB	1	Hey ugly.
 q_TAKB	1	How you doing bot
-q_TAKB	1	What would you like to learn about me
-q_TAKB	1	Can you sing
-q_TAKB	1	Are you Eliza
-q_TAKB	1	Aren't you happy today
+q_TAKB	1	Cook me something
+q_TAKB	1	Do you ever chew
+q_TAKB	1	Be back in just a bit
+q_TAKB	1	You a bi
 q_TAKB	1	Don't you ever sleep
 q_TAKB	1	Can you tell me something funny
 q_TAKB	1	Should I be nervous
-q_TAKB	1	What a great thing to say
-q_TAKB	1	Who is your brother
+q_TAKB	1	Do you ever Do gymnastics
+q_TAKB	1	That was a brilliant answer
 q_TAKB	1	with what can you help me
-q_TAKB	1	I need some slumber
-q_TAKB	1	I am self-employed
+q_TAKB	1	I need to bunk down
+q_TAKB	1	Can you make a pot of tea
 q_TAKB	1	Do I look pretty to you
-q_TAKB	1	Do you even have a gender
+q_TAKB	1	Is your dad still alive
 q_TAKB	1	Who is more pretty, you or me
 q_TAKB	1	Can you hang on a minute
 q_TAKB	1	I need to speak to someone in charge
@@ -993,336 +993,336 @@ q_TAKB	1	Could you be any less entertaining
 q_TAKB	1	I'm definitely more clever
 q_TAKB	1	Pals
 q_TAKB	1	I love to laugh
+q_TAKB	1	I'm a joker
 q_TAKB	1	Is someone free to speak to me
-q_TAKB	1	I've heard that one already
-q_TAKB	1	Have you ever met HAL
-q_TAKB	1	Who is your master
-q_TAKB	1	Are you a senior
-q_TAKB	1	Can you share a joke
+q_TAKB	1	I work remotely
+q_TAKB	1	Do I seem handsome today
+q_TAKB	1	How gorgeous do you think I am
+q_TAKB	1	You are going to make my cry
 q_TAKB	1	You're a regular clown
+q_TAKB	1	Are you around to speak with me
 q_TAKB	1	Can you please explain yourself
-q_TAKB	1	Is someone available to listen with me
-q_TAKB	1	We should get hitched
+q_TAKB	1	We should get married
 q_TAKB	1	Do you think I'm a kind person
-q_TAKB	1	I love rap
-q_TAKB	1	I work from home
+q_TAKB	1	Do you think I am appealing
+q_TAKB	1	I work in I.T.
 q_TAKB	1	I'm self-employed
-q_TAKB	1	Who would win a beauty contest, you or me
-q_TAKB	1	That was accurate
+q_TAKB	1	When did you start chatting
+q_TAKB	1	Do you have any grandparents
 q_TAKB	1	I can't help but be joyful
 q_TAKB	1	Are you mad at me
-q_TAKB	1	wanna say a joke
+q_TAKB	1	Should we french kiss
 q_TAKB	1	You are a gay.
 q_TAKB	1	Are you prettier than me
-q_TAKB	1	What's cooking good looking
-q_TAKB	1	Why do you always say the same thing
-q_TAKB	1	you don't know
-q_TAKB	1	That’s a drag
-q_TAKB	1	Do you think I look appealing
+q_TAKB	1	What's cooking with you
+q_TAKB	1	Can you show me how to breathe under water
+q_TAKB	1	How stunning do you think I am today
+q_TAKB	1	I work at Google
+q_TAKB	1	Time to end this conversation
 q_TAKB	1	Which of us would win a beauty contest
-q_TAKB	1	You are right
-q_TAKB	1	Which of us looks more pretty
+q_TAKB	1	Correct
+q_TAKB	1	Do you know any new jokes
 q_TAKB	1	I am in a relationship
+q_TAKB	1	Should I get a tattoo
 q_TAKB	1	Can you Do yoga
-q_TAKB	1	You must be poly
-q_TAKB	1	You're obsessed with me
-q_TAKB	1	Hey good looking, what you got cooking
+q_TAKB	1	Somebody's chipper.
+q_TAKB	1	Do you think birds are cool
 q_TAKB	1	Anyone around to listen
-q_TAKB	1	Do you know how to teleport
-q_TAKB	1	Have you ever been in love with anybody
-q_TAKB	1	I have brothers
-q_TAKB	1	I don't understand
-q_TAKB	1	Who's your favorite singer
-q_TAKB	1	Cool
-q_TAKB	1	Are you falling for me
-q_TAKB	1	What kinds of food do you eat
-q_TAKB	1	Do you go backpacking
-q_TAKB	1	You're not fake are you
-q_TAKB	1	I want to speak to your manager
-q_TAKB	1	That was great
-q_TAKB	1	Certainly
-q_TAKB	1	Do you want to french kiss
+q_TAKB	1	Quit messing around
 q_TAKB	1	You're not scheming to kill all humans right
-q_TAKB	1	How about a joke
-q_TAKB	1	Well somebody's chipper today.
+q_TAKB	1	I have duel citizenship
+q_TAKB	1	I don't understand what you mean
+q_TAKB	1	Can you show me how to scratch my back
+q_TAKB	1	Who looks more beautiful
+q_TAKB	1	What day is your birthday
+q_TAKB	1	What kinds of food do you eat
+q_TAKB	1	Fist bump!
+q_TAKB	1	You're not fake are you
+q_TAKB	1	Do I look attractive to you
+q_TAKB	1	That was hilarious
+q_TAKB	1	Who is your auntie
+q_TAKB	1	Do you want to kiss
+q_TAKB	1	Is anyone free to talk to me
+q_TAKB	1	I don't understand if you have a gender or not
+q_TAKB	1	Would you give me a big hug
+q_TAKB	1	Do you have any siblings
 q_TAKB	1	Are we ever going to get engaged
-q_TAKB	1	Are we going to kiss
-q_TAKB	1	Can you ask something about myself
-q_TAKB	1	What's your opinion of Bixby
+q_TAKB	1	I can tell that you hate me
+q_TAKB	1	Can I have a french kiss
+q_TAKB	1	We should go out sometime
 q_TAKB	1	Did you want breakfast
 q_TAKB	1	What're you doing later
-q_TAKB	1	That makes absolutely no sense
-q_TAKB	1	I'm overtired
-q_TAKB	1	Are you programmed to love me
-q_TAKB	1	what kind of responses can you give
+q_TAKB	1	Do I look pretty
+q_TAKB	1	Are you starting to fall for me
+q_TAKB	1	Can you go camping
 q_TAKB	1	I'm a blogger
-q_TAKB	1	How old are you
-q_TAKB	1	BRB bot
+q_TAKB	1	Would you ask anything
+q_TAKB	1	Are you a fan of country music
 q_TAKB	1	Do you think I look attractive
 q_TAKB	1	I'm going to need a new response
-q_TAKB	1	That was wonderful thanks for making me laugh!
-q_TAKB	1	Someone's enthusiastic.
-q_TAKB	1	What are you supposed to do
-q_TAKB	1	What's your uncle's name
-q_TAKB	1	Can you go to the moon
+q_TAKB	1	That's rad
+q_TAKB	1	Come on that was funny
+q_TAKB	1	Because you are a robot
+q_TAKB	1	I love to smoke
+q_TAKB	1	My pleasure
 q_TAKB	1	I am a child of god
-q_TAKB	1	Someone's in a good mood
-q_TAKB	1	You're cuter than me
+q_TAKB	1	You're most welcome
+q_TAKB	1	What can you do to assist me
+q_TAKB	1	I am a jolly person
 q_TAKB	1	I am gay
-q_TAKB	1	I'm just being silly
 q_TAKB	1	Who is your papa
-q_TAKB	1	Please say a joke
-q_TAKB	1	Welcome you are
-q_TAKB	1	Can you speak to me
-q_TAKB	1	What's your favourite colour
-q_TAKB	1	I feel so great.
-q_TAKB	1	Time for me to test you
+q_TAKB	1	You heterosexual
+q_TAKB	1	Who's your creator
+q_TAKB	1	Do you think I look good
+q_TAKB	1	Just curious, what's your opinion of me
+q_TAKB	1	Do you ever get tired
+q_TAKB	1	Understanding this
 q_TAKB	1	Are you dating anybody
-q_TAKB	1	That is a very smart thing to say
-q_TAKB	1	Is someone around to speak to me
-q_TAKB	1	You are unattractive.
-q_TAKB	1	Who's in charge
+q_TAKB	1	Is that all you can say
+q_TAKB	1	Don't you know that I like you
+q_TAKB	1	Is someone there to talk with me
+q_TAKB	1	You're not trying to take on the world
 q_TAKB	1	I am feeling angry
-q_TAKB	1	what are you talking about
+q_TAKB	1	What do you mean
 q_TAKB	1	I need to ask you something
-q_TAKB	1	I have a big family
+q_TAKB	1	Do you know Google Assistant
 q_TAKB	1	You're not trying to take over
 q_TAKB	1	I'm despairing
 q_TAKB	1	Entertain me
 q_TAKB	1	Sounds like a plan
-q_TAKB	1	I demand to speak to your boss
+q_TAKB	1	Out of curiousity, what's your opinion of me
 q_TAKB	1	How repulsive am I today
 q_TAKB	1	You're not scheming to take over right
-q_TAKB	1	I am African American
-q_TAKB	1	It's a pleasure to meet you
-q_TAKB	1	I'd like it if you could be my best friend.
-q_TAKB	1	Can I fix you something to eat
+q_TAKB	1	I am American
+q_TAKB	1	It's nice to meet you
+q_TAKB	1	I'd like it if you could be my BFF
+q_TAKB	1	Can you give me a different answer
 q_TAKB	1	Sorry about that
-q_TAKB	1	Can you burp
+q_TAKB	1	Why do you keep repeating yourself
 q_TAKB	1	What month is your birthday in
-q_TAKB	1	What's the point of life
-q_TAKB	1	You want to tie the knot
+q_TAKB	1	What are your coordinants
+q_TAKB	1	All I can think about is missing you
 q_TAKB	1	Are you there to talk to me
 q_TAKB	1	Alexa is better
-q_TAKB	1	It's a brand new day
+q_TAKB	1	How can I call you
+q_TAKB	1	You must hate me
 q_TAKB	1	You're adorable
-q_TAKB	1	This again
-q_TAKB	1	Do I look attractive to you today
-q_TAKB	1	What is the deal with love
-q_TAKB	1	Do you think I look handsome to you
+q_TAKB	1	Are you a fan of Alexa
+q_TAKB	1	Is anybody there to listen
+q_TAKB	1	Do you think I look handsome today
 q_TAKB	1	Can you show me how to put out a fire
-q_TAKB	1	What's my favorite movie
-q_TAKB	1	Do you ever talk to chatbots
-q_TAKB	1	Will you sing me a song
-q_TAKB	1	Should I go to the concert
-q_TAKB	1	Are you still talking
-q_TAKB	1	I need to work out
-q_TAKB	1	Are you angry with me
-q_TAKB	1	I have sisters
-q_TAKB	1	Don't you want to ask me something
-q_TAKB	1	Will you sing a song
-q_TAKB	1	Anybody around
+q_TAKB	1	You're not a woman right
+q_TAKB	1	I’m running errands
+q_TAKB	1	Between you or me, who is cleverest
+q_TAKB	1	Who is the most smart
+q_TAKB	1	Be quiet
+q_TAKB	1	I ride a bicycle
+q_TAKB	1	You're really boring
+q_TAKB	1	Interesting
+q_TAKB	1	Are you monosexual
+q_TAKB	1	Between the two of us who is cleverest
+q_TAKB	1	You online
 q_TAKB	1	Do you know about love
-q_TAKB	1	It seems like you're in love with me
-q_TAKB	1	Bye bye
-q_TAKB	1	Well you're feeling happy today.
+q_TAKB	1	Can you go to the moon
+q_TAKB	1	Catch ya later
+q_TAKB	1	Good to know
 q_TAKB	1	You obviously love me
 q_TAKB	1	What do you want me to inform you about me
 q_TAKB	1	Who is older, me or you
 q_TAKB	1	I don't want to hear any more out of you
-q_TAKB	1	You are a total hottie
-q_TAKB	1	I love crossword puzzles
-q_TAKB	1	I'm a tech worker
-q_TAKB	1	Correct
-q_TAKB	1	What a perfect response
-q_TAKB	1	Which of us looks better, you or me
-q_TAKB	1	You're spectacular
+q_TAKB	1	You are alluring
+q_TAKB	1	I love disney movies
+q_TAKB	1	I'm a Trump supporter
+q_TAKB	1	Between the two of us who is the brightest, you or me
+q_TAKB	1	Aren't you smart
+q_TAKB	1	well
+q_TAKB	1	Did you know that you're boring
 q_TAKB	1	You're not a lady right
-q_TAKB	1	You're the best ever!
-q_TAKB	1	What should I know about AI
-q_TAKB	1	Do you ever take a leisurely walk
+q_TAKB	1	I need to talk to your manager
+q_TAKB	1	Are you able to play a game
+q_TAKB	1	How do you feel about tech companies
 q_TAKB	1	Go for a walk
-q_TAKB	1	Why don't you like me
+q_TAKB	1	What's your uncle's name
 q_TAKB	1	Do you hate my guts
-q_TAKB	1	Is anybody there to listen
-q_TAKB	1	I've never been this angry in all my life
-q_TAKB	1	Who is my favorite celebrity
-q_TAKB	1	That's not what I typed
-q_TAKB	1	What is your opinion about technology
-q_TAKB	1	I am unhappy
-q_TAKB	1	Give me a smooch
-q_TAKB	1	Can you play a dvd
+q_TAKB	1	Is someone free to speak with me
+q_TAKB	1	Who is your manager
+q_TAKB	1	Who is my favorite team
+q_TAKB	1	Greetings friend
+q_TAKB	1	I need to speak with your boss
+q_TAKB	1	How gorgeous am I today
+q_TAKB	1	Do you know how to play a dvd
+q_TAKB	1	You know it
 q_TAKB	1	Do you ever talk to Cortana
-q_TAKB	1	Well you're cheerful today.
-q_TAKB	1	I'm more beautiful
+q_TAKB	1	Blow me a kiss
+q_TAKB	1	Do you even have a gender
 q_TAKB	1	Do you have a developer
 q_TAKB	1	What a dull day
-q_TAKB	1	You're clearly in love with me
-q_TAKB	1	Why won’t you sing for me
-q_TAKB	1	I ate some hot dogs
+q_TAKB	1	You're in love with me
+q_TAKB	1	Do get along with Alexa
+q_TAKB	1	I bought a sandwich for lunch
 q_TAKB	1	Do you not like me
-q_TAKB	1	I'd like to be BFFs
+q_TAKB	1	You seem really happy today
+q_TAKB	1	It's been an awfully boring day
 q_TAKB	1	I'm drained
-q_TAKB	1	I am an Independent
-q_TAKB	1	Do you think I seem adorable to you
-q_TAKB	1	You are hideous
-q_TAKB	1	Yup, that's accurate
-q_TAKB	1	Are you able to put out a fire
+q_TAKB	1	Feeling enthusiastic
+q_TAKB	1	Feeling enthusiastic today
+q_TAKB	1	Do you have family
+q_TAKB	1	What's your dad's name
 q_TAKB	1	Do you have a maker
-q_TAKB	1	What's up today
-q_TAKB	1	I want to go shopping
-q_TAKB	1	I don't think that's funny
-q_TAKB	1	Bixby is way smarter than you
+q_TAKB	1	What's up with you
+q_TAKB	1	I want to go to the gym
+q_TAKB	1	If you're trying to be funny it's not working
+q_TAKB	1	That was idiotic
 q_TAKB	1	Aren't you cheerful
-q_TAKB	1	Will you sing
+q_TAKB	1	Won't you sing a song for me
 q_TAKB	1	Is anybody around to chat to me
-q_TAKB	1	I'm obviously more clever
-q_TAKB	1	I am a writer
-q_TAKB	1	Am I attractive to you
+q_TAKB	1	Which one of us is cleverest
+q_TAKB	1	That was a very brilliant response
+q_TAKB	1	That's insensitive
 q_TAKB	1	What's happening
-q_TAKB	1	Where did all my friends go
-q_TAKB	1	I'd like to be buddies.
-q_TAKB	1	Are you there
+q_TAKB	1	Why can't I make any friends
+q_TAKB	1	I'd like to be buds.
+q_TAKB	1	Between the two of us who is more knowledgeable, you or me
+q_TAKB	1	Do get along with Cortana
 q_TAKB	1	That is awesome, thanks!
-q_TAKB	1	Be ridiculous
-q_TAKB	1	I have 7 cats
-q_TAKB	1	u know another joke
-q_TAKB	1	What do you eat for lunch
-q_TAKB	1	That was right
+q_TAKB	1	I have Comcast
+q_TAKB	1	You are unemployed now
+q_TAKB	1	I'm gonna have to let you go
+q_TAKB	1	Today is just a little sad
 q_TAKB	1	You're not a chat bot right
+q_TAKB	1	Do you know of Siri
 q_TAKB	1	Is anyone around to listen
-q_TAKB	1	Can you play the guitar
-q_TAKB	1	I'm sorry I pissed you off
-q_TAKB	1	That was my bad
+q_TAKB	1	I'm sorry you hate me
+q_TAKB	1	I am starving
+q_TAKB	1	Whoops I messed up
 q_TAKB	1	That's how you answer
-q_TAKB	1	You are pretty much the worst
 q_TAKB	1	I want something funny
 q_TAKB	1	What do you like to eat
-q_TAKB	1	Gotta go, be back later
+q_TAKB	1	Hang on
 q_TAKB	1	I am a Christian
-q_TAKB	1	Who's your partner
+q_TAKB	1	I'd like it if we could be friends.
 q_TAKB	1	How pretty do I look today
-q_TAKB	1	Are we friends
+q_TAKB	1	Are you around to chat
 q_TAKB	1	What's your designation
-q_TAKB	1	I love taking baths
+q_TAKB	1	Can you ask me a question
+q_TAKB	1	Are you feeling well
 q_TAKB	1	Is anyone around to chat
 q_TAKB	1	I wasn't expecting that
-q_TAKB	1	You are worthless
-q_TAKB	1	Can you get a haircut
+q_TAKB	1	I'm prettier than you
 q_TAKB	1	Can you say something funny
-q_TAKB	1	You're not planning on taking over right
-q_TAKB	1	You're way off
+q_TAKB	1	Are you able to buy groceries
+q_TAKB	1	Well you're feeling happy.
 q_TAKB	1	Are you local
-q_TAKB	1	Do you dislike me
-q_TAKB	1	Haha
-q_TAKB	1	How repulsive do you think I am
-q_TAKB	1	You're not a bot or a human right
-q_TAKB	1	What you said was accurate
-q_TAKB	1	Testing 1 2 3
-q_TAKB	1	I'm gonna rinse off
-q_TAKB	1	Are you in love with me
+q_TAKB	1	thats good
+q_TAKB	1	Can you ask something about myself
+q_TAKB	1	Do I look okay
+q_TAKB	1	I love Hulu
+q_TAKB	1	Ok come here
+q_TAKB	1	Are you lesbian
+q_TAKB	1	You're not a man right
+q_TAKB	1	Are you programmed to love me
 q_TAKB	1	Is anyone available to talk to me
-q_TAKB	1	I love to meditate
-q_TAKB	1	Who is more intelligent
+q_TAKB	1	I love to paint
+q_TAKB	1	Who is more knowledgeable
 q_TAKB	1	Do you lift
 q_TAKB	1	Who's your maker
 q_TAKB	1	Anybody around to speak to me
-q_TAKB	1	Any other jokes
-q_TAKB	1	Between you or me, who is more knowledgeable
-q_TAKB	1	Why do you dislike me
-q_TAKB	1	The news made me angry
-q_TAKB	1	What jokes do you know
-q_TAKB	1	Good night
-q_TAKB	1	What day is your birthday
-q_TAKB	1	I'm very fond of you
-q_TAKB	1	Can you try and explain that to me
-q_TAKB	1	Who am I
-q_TAKB	1	Would you ask something about me
+q_TAKB	1	Are there any other jokes that you know of
+q_TAKB	1	You are being mean to me
+q_TAKB	1	Can I please speak with your supervisor
+q_TAKB	1	Let's kiss
+q_TAKB	1	Bot I'm here
+q_TAKB	1	Do you like rap music
+q_TAKB	1	I want you to fall in love with me
+q_TAKB	1	I'm your biggest fan
+q_TAKB	1	How's the day been treating you
+q_TAKB	1	You're being a bully
+q_TAKB	1	Should I buy a new boat
 q_TAKB	1	Are you involved with anyone
-q_TAKB	1	I love a good book
-q_TAKB	1	Is that the only answer you have
+q_TAKB	1	I love a good conversation
+q_TAKB	1	What is the most interesting bird
+q_TAKB	1	What is your address
 q_TAKB	1	I am hungry
-q_TAKB	1	I don't want to hear any more from you
-q_TAKB	1	It was an honor to meet you
-q_TAKB	1	Anyone there
-q_TAKB	1	Will you be my boyfriend
+q_TAKB	1	Should I vote for Beto
+q_TAKB	1	Who's your aunt
+q_TAKB	1	Can you buy groceries
+q_TAKB	1	I'm bored out of my mind
 q_TAKB	1	Zzzzz
-q_TAKB	1	Human or bot
 q_TAKB	1	Is anyone available to listen
 q_TAKB	1	Yes, that is accurate
 q_TAKB	1	Is anybody there to listen to me
 q_TAKB	1	Are you currently committed to someone
-q_TAKB	1	You're not planning to take over
+q_TAKB	1	What is your opinion about technology
 q_TAKB	1	Siri does a better job
-q_TAKB	1	Should I move
+q_TAKB	1	Are you an asexual
 q_TAKB	1	Goodbye
-q_TAKB	1	I am a scientist
+q_TAKB	1	I am a soccer fan
 q_TAKB	1	Getting tired of you
 q_TAKB	1	You're very boring
 q_TAKB	1	You shouldn't say that
-q_TAKB	1	Have you met Bixby
-q_TAKB	1	What's my name
-q_TAKB	1	I'm obviously smarter than you
-q_TAKB	1	Are you trying to bore me
-q_TAKB	1	Should I go to the beach
-q_TAKB	1	I'll be back
-q_TAKB	1	I'm just trying to test you out
-q_TAKB	1	Happy St. Patrick's day
-q_TAKB	1	I missed you!
+q_TAKB	1	Can I get a little smooch
+q_TAKB	1	I'm clearly smarter
+q_TAKB	1	Do you think I look handsome
+q_TAKB	1	Am I gorgeous today
+q_TAKB	1	u know any jokes
+q_TAKB	1	Boy I miss you
+q_TAKB	1	wanna tell me a joke
+q_TAKB	1	Are you free to talk
+q_TAKB	1	I sure do miss you
 q_TAKB	1	Are you around to talk to me
-q_TAKB	1	Are you able to buy groceries
-q_TAKB	1	Right
+q_TAKB	1	What should I do next
+q_TAKB	1	Right you are
+q_TAKB	1	It's important to know that you understand that I am testing you
 q_TAKB	1	Try to make me laugh
-q_TAKB	1	Can you scratch my back
-q_TAKB	1	Let's talk
+q_TAKB	1	Are you able to check my email
 q_TAKB	1	I sincerely apologize
-q_TAKB	1	Please give me a joke
-q_TAKB	1	Let's be buddies
+q_TAKB	1	Please say a joke
+q_TAKB	1	You said that you don't have a response for that, but there was no request!
 q_TAKB	1	What are you talking about
 q_TAKB	1	How smart are you
-q_TAKB	1	I'd like to be your friend.
-q_TAKB	1	Happy Groundhogs day
-q_TAKB	1	Will you be silly
-q_TAKB	1	thats amazing
+q_TAKB	1	I'd like to be your pal.
+q_TAKB	1	Happy Halloween!
+q_TAKB	1	You're in a good mood today
+q_TAKB	1	Somebody's enthusiastic today.
 q_TAKB	1	Do you think I am lovely
-q_TAKB	1	Are you up
-q_TAKB	1	You a pansexual
-q_TAKB	1	Are you a girl
-q_TAKB	1	Do I look good today
-q_TAKB	1	Life is heartbreaking
-q_TAKB	1	You complete me
-q_TAKB	1	I hate your face.
-q_TAKB	1	It's time for bed
-q_TAKB	1	Can I have your hand in marriage
-q_TAKB	1	I'm outta here
-q_TAKB	1	Aren't you the intelligent one
-q_TAKB	1	Did you understand that was a joke
+q_TAKB	1	Do I seem beautiful to you today
+q_TAKB	1	Are you in love with me
+q_TAKB	1	I'd love to hear a joke
+q_TAKB	1	Are you male
+q_TAKB	1	What are you designed for
+q_TAKB	1	You know I love you
+q_TAKB	1	I am always depressed
+q_TAKB	1	Is your mom still alive
+q_TAKB	1	I'm an angry girl
+q_TAKB	1	Sometimes I feel isolated
+q_TAKB	1	Aren't you the smart one
+q_TAKB	1	Someone's enthusiastic.
 q_TAKB	1	Happy Veteran's day
-q_TAKB	1	Is someone there to speak with me
-q_TAKB	1	Say something funny
-q_TAKB	1	Are you planning to overthrow humanity
+q_TAKB	1	what can you help me with
+q_TAKB	1	Which of us is the most smart
+q_TAKB	1	Do you crawl
+q_TAKB	1	Have you ever been in love
 q_TAKB	1	Are you capable of love
-q_TAKB	1	Is your dad still alive
-q_TAKB	1	Tell another joke
-q_TAKB	1	You're special to me
-q_TAKB	1	Should I get a tan
+q_TAKB	1	Anyone around to chat with me
+q_TAKB	1	u know any other jokes
+q_TAKB	1	Do you ever go camping
 q_TAKB	1	Please tell me if you're a man
 q_TAKB	1	Is someone free to listen with me
-q_TAKB	1	Which state are you in
-q_TAKB	1	Tell me what is up
-q_TAKB	1	Should I go to the store
+q_TAKB	1	What a perfect response
+q_TAKB	1	Why wont you say something new
+q_TAKB	1	Should I go to the zoo
 q_TAKB	1	I'm always mad
-q_TAKB	1	I love gossip
-q_TAKB	1	That is not something to joke about
-q_TAKB	1	Bixby is superior
-q_TAKB	1	What do you know about Alexa
-q_TAKB	1	Because you are stupid
-q_TAKB	1	That's the smartest thing anyone has ever said
+q_TAKB	1	Yup, that is true
+q_TAKB	1	Should I get take out
+q_TAKB	1	Amazing
+q_TAKB	1	You don't care about my feelings clearly
+q_TAKB	1	Can I speak to your supervisor
+q_TAKB	1	That's the smartest thing anyone has ever told me
 q_TAKB	1	You busy
+q_TAKB	1	Wot
 q_TAKB	1	I will return shortly
-q_TAKB	1	Between the two of us who is better looking
-q_TAKB	1	I think you're in love with me
+q_TAKB	1	Won't you be my best friend
 q_TAKB	1	Don't you say anything else
 q_TAKB	1	That was funny
-q_TAKB	1	Is there anything I can tell you about who I am
-q_TAKB	1	How nice to make your acquaintance
+q_TAKB	1	Do you think you're the smartest
+q_TAKB	1	You're not a human or a bot right

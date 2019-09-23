@@ -95,16 +95,23 @@ namespace TABot.Bots.Dialogs
         {
             string choice = (string)stepContext.Values["ErrorEntryMethod"];
 
+            bool worked = false;
+
+            List<string> lines = new List<string>();       
+
             switch (choice)
             {
                 case textChoice:
-                    await stepContext.Context.ReplyTextAsync("Recieved error as text");
+                    {
+                        string text = (string)stepContext.Result;
+
+                        lines.AddRange(text.Split('\n'));
+                    }
                     break;
                 case uploadChoice:
                     var file = ((IEnumerable<Attachment>)stepContext.Result).FirstOrDefault();
                     if(file != null)
                     {
-                        bool worked = false;
                         using (WebClient client = new WebClient())
                         {
                             var data = client.DownloadData(new Uri(file.ContentUrl));
@@ -122,29 +129,12 @@ namespace TABot.Bots.Dialogs
                                             builder.Append($"{word.Text} ");
                                         }
                                         string text = builder.ToString();
-                                        stepContext.Context.Activity.Text = text;
-                                        var result = await _botServices.ErrorLuis.RecognizeAsync(stepContext.Context, cancellationToken);
-                                        var topIntent = result.GetTopScoringIntent();
-                                        switch (topIntent.intent)
-                                        {
-                                            case "SegmentationFault":
-                                                worked = true;
-                                                await stepContext.Context.ReplyTextAsync($"Line - '{text}'\n\nYour program is trying to access a memory that is not allocated for it.");
-                                                break;
 
-                                        }
+                                        lines.Add(text);
                                     }
                                 }
                             }
-                        }
-                        if (worked)
-                        {
-                            await stepContext.Context.ReplyTextAsync("I hope this should give you enough ammunition to fix your code");
-                        }
-                        else
-                        {
-                            await stepContext.Context.ReplyTextAsync("I was unable to find out what's wrong. I'll let the course instructor know about this.");
-                        }
+                        } 
                     }
                     else
                     {
@@ -152,6 +142,31 @@ namespace TABot.Bots.Dialogs
                     }
                     
                     break;
+            }
+
+            foreach (var line in lines)
+            {
+                stepContext.Context.Activity.Text = line;
+                var result = await _botServices.ErrorLuis.RecognizeAsync(stepContext.Context, cancellationToken);
+
+                var topIntent = result.GetTopScoringIntent();
+
+                switch (topIntent.intent)
+                {
+                    case "SegmentationFault":
+                        worked = true;
+                        await stepContext.Context.ReplyTextAsync($"Line - '{line}'\n\nYour program is trying to access a memory that is not allocated for it.");
+                        break;
+                }
+            }
+
+            if (worked)
+            {
+                await stepContext.Context.ReplyTextAsync("I hope this should give you enough ammunition to fix your code");
+            }
+            else
+            {
+                await stepContext.Context.ReplyTextAsync("I was unable to find out what's wrong. I'll let the course instructor know about this.");
             }
 
             return await stepContext.EndDialogAsync(cancellationToken);

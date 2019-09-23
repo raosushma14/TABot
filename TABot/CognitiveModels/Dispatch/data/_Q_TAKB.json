@@ -5800,7 +5800,7 @@
     },
     {
       "id": 57,
-      "answer": "Hello.",
+      "answer": "Hello. I am TA chat bot. How can I help you today?",
       "source": "qna_chitchat_professional.tsv",
       "questions": [
         "Aloha",
@@ -8658,6 +8658,23 @@
           "value": "chitchat"
         }
       ],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "f19b2d65-7549-41e5-8ec8-a2a2d912e54e",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 96,
+      "answer": "The course code of this course is CIS-211",
+      "source": "Editorial",
+      "questions": [
+        "What is the course code of this course?"
+      ],
+      "metadata": [],
       "alternateQuestions": "",
       "alternateQuestionClusters": [],
       "changeStatus": "NoChange",
