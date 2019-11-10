@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="dist/mBot.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>TABot</title>
     <style>
         body {
@@ -364,28 +366,6 @@
             max-height: 10px;
         }
     </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            loadFrame();
-        });
-        var loadFrame = function () {
-            var iframe = document.createElement('iframe');
-            iframe.setAttribute("id", "iframe");
-            var offLineHTMLContent = "";
-            var frameElement = document.getElementById("how-to-iframe");
-            if (window.navigator.onLine) {
-                iframe.src = 'https://docs.botframework.com/static/abs/pages/f5.htm';
-                iframe.setAttribute("scrolling", "no");
-                iframe.setAttribute("frameborder", "0");
-                iframe.setAttribute("width", "100%");
-                iframe.setAttribute("height", "100%");
-                var frameDiv = document.getElementById("how-to-iframe");
-                frameDiv.appendChild(iframe);
-            } else {
-                frameElement.classList.add("remove-frame-height");
-            }
-        };
-    </script>
 </head>
 
 <body>
@@ -398,16 +378,23 @@
     <div class="row">
         <div class="column" class="main-content-area">
             <div class="content-title">Your bot is ready!</div>
-            <div class="main-text main-text-p1">You can test your bot in the Bot Framework Emulator<br />
-                by connecting to http://localhost:3978/api/messages.</div>
-            <div class="main-text download-the-emulator"><a class="ctaLink"
-                    href="https://aka.ms/bot-framework-F5-download-emulator" target="_blank">Download the Emulator</a>
+            <div class="main-text main-text-p1">
+                You can test your bot in the Bot Framework Emulator<br />
+                by connecting to http://localhost:3978/api/messages.
             </div>
-            <div class="main-text">Visit <a class="ctaLink" href="https://aka.ms/bot-framework-F5-abs-home"
-                    target="_blank">Azure
-                    Bot Service</a> to register your bot and add it to<br />
+            <div class="main-text download-the-emulator">
+                <a class="ctaLink"
+                   href="https://aka.ms/bot-framework-F5-download-emulator" target="_blank">Download the Emulator</a>
+            </div>
+            <div class="main-text">
+                Visit <a class="ctaLink" href="https://aka.ms/bot-framework-F5-abs-home"
+                         target="_blank">
+                    Azure
+                    Bot Service
+                </a> to register your bot and add it to<br />
                 various channels. The bot's endpoint URL typically looks
-                like this:</div>
+                like this:
+            </div>
             <div class="endpoint">https://<i>your_bots_hostname</i>/api/messages</div>
         </div>
         <div class="column how-to-iframe" id="how-to-iframe"></div>
@@ -415,6 +402,26 @@
     <div class="ms-logo-container">
         <div class="ms-logo"></div>
     </div>
+
+    <div id="bot">
+
+    </div>
+
+    <script src="dist/jquery-3.2.1.min.js"></script>
+  <script src="dist/mBot.js"></script>
+
+  <script>
+  $('#bot').initChatBot({
+    headerColor: '#fff',
+    // // myChatColor: 'orange',
+    // myChatBg: '#007cc0'
+	secret : 'RISQFN9hzXQ.rwCrNpcxpFoFNrH5hFQ6t0OXy4zGv0aXFyj4eKSCt_o',
+      userId : 'Student',
+      botId : 'a7e2f0bf-fdab-4be4-8182-4bcb2c2d0a9c',
+  });
+
+  </script>
+
 </body>
 
 </html>
