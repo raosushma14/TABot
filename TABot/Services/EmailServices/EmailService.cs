@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TABot.Models;
+using System.Linq;
 
 namespace TABot.Services.EmailServices
 {
@@ -25,7 +26,7 @@ namespace TABot.Services.EmailServices
             _authKey = authKey ?? throw new ArgumentNullException(nameof(authKey));
         }
 
-        public async Task SendEmailAsync(string subject, string body, string to = null, bool isHtml = false)
+        public async Task SendEmailAsync(string subject, string body, string to = null, IEnumerable<string> cc = null, bool isHtml = false)
         {
             if(to == null)
             {
@@ -45,7 +46,11 @@ namespace TABot.Services.EmailServices
                         To = new List<EmailAddress>
                         {
                             new EmailAddress{Email = to}
-                        }
+                        },
+                        Cc = cc?.Select(p=> new EmailAddress
+                        {
+                            Email = p
+                        })
                     }
                 },
                 From = new EmailAddress { Email = _fromEmail },

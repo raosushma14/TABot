@@ -10,6 +10,8 @@ using TABot.Services.BotServices;
 using TABot.Helpers;
 using Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.Models;
 using Microsoft.Bot.Schema;
+using TABot.Services.EmailServices;
+using TABot.Services.TableStorageService;
 
 namespace TABot.Bots.Dialogs
 {
@@ -17,13 +19,19 @@ namespace TABot.Bots.Dialogs
     {
         private IBotServices _botServices;
         private ILogger<EchoBot> _logger;
+        private EmailService _emailService;
+        private TableStorageService _storageService;
 
         public MainDialog(IBotServices botServices, 
+            EmailService emailService,
+            TableStorageService storageService,
             ILogger<EchoBot> logger,
             ErrorEnquiryDialog errorEnquiryDialog) : base(nameof(MainDialog))
         {
             _botServices = botServices ?? throw new ArgumentNullException(nameof(botServices));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
+            _storageService = storageService ?? throw new ArgumentNullException(nameof(storageService));
 
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(errorEnquiryDialog);
@@ -85,6 +93,9 @@ namespace TABot.Bots.Dialogs
                      return await ProcessQnAAsync(stepContext, cancellationToken);
                 default:
                     await stepContext.Context.ReplyTextAsync("Sorry! I am unable to help with that at the moment.");
+
+                    await HandleUnknownQuestionsAsync(stepContext.Context);
+
                     return await stepContext.NextAsync(null, cancellationToken);
             }
         }
@@ -103,6 +114,8 @@ namespace TABot.Bots.Dialogs
                     break;
                 default:
                     await stepContext.Context.ReplyTextAsync("Sorry! I am unable to understand that");
+
+                    await HandleUnknownQuestionsAsync(stepContext.Context);
                     break;
             }
             
@@ -120,6 +133,8 @@ namespace TABot.Bots.Dialogs
             else
             {
                 await stepContext.Context.ReplyTextAsync("Sorry! I am unable to answer that at the moment.");
+
+                await HandleUnknownQuestionsAsync(stepContext.Context);
             }
             return await stepContext.NextAsync(null, cancellationToken);
         }
@@ -128,6 +143,29 @@ namespace TABot.Bots.Dialogs
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             return await stepContext.EndDialogAsync(null, cancellationToken);
+        }
+
+        private async Task HandleUnknownQuestionsAsync(ITurnContext context)
+        {
+            try
+            {
+                await UnkownQuestionHelper.HandleAsync(context, _emailService);
+            }
+            catch (Exception)
+            {
+
+                //ignore
+            }
+
+            try
+            {
+                await UnkownQuestionHelper.LogToTableStorage(context, _storageService);
+            }
+            catch (Exception)
+            {
+
+                //ignore
+            }
         }
     }
 }

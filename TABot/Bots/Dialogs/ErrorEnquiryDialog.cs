@@ -155,7 +155,8 @@ namespace TABot.Bots.Dialogs
                 {
                     case "SegmentationFault":
                         worked = true;
-                        await stepContext.Context.ReplyTextAsync($"Line - '{line}'\n\nYour program is trying to access a memory that is not allocated for it.");
+                        var message = "Your program is trying to access a memory that is not allocated for it."; 
+                        await stepContext.Context.ReplyTextAsync($"Line - \" {line} \" \n\n{message}");
                         break;
                 }
             }

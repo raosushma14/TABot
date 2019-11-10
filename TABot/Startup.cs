@@ -16,6 +16,7 @@ using TABot.Bots;
 using TABot.Bots.Dialogs;
 using TABot.Services.BotServices;
 using TABot.Services.EmailServices;
+using TABot.Services.TableStorageService;
 
 namespace TABot
 {
@@ -43,6 +44,11 @@ namespace TABot
             services.AddSingleton<ConversationState>();
 
             services.AddSingleton<IBotServices, BotServices>();
+
+            services.AddTransient<TableStorageService>((serviceProvider) =>
+            {
+                return new TableStorageService(Configuration["StorageConnectionString"]);
+            });
 
             //Register email service as a transient dependency in the IOC
             services.AddTransient<EmailService>((serviceProvider) => {
