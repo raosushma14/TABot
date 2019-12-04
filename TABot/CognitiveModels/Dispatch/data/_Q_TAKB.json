@@ -893,7 +893,7 @@
     },
     {
       "id": 8,
-      "answer": "I'm here to answer your questions and help out.",
+      "answer": "I can help you with your assignment questions, programming questions, and any general questions with the course Object Oriented Programming Language with C++",
       "source": "qna_chitchat_professional.tsv",
       "questions": [
         "Can you explain to me what your role is?",
@@ -8673,6 +8673,24 @@
       "source": "Editorial",
       "questions": [
         "What is the course code of this course?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "f19b2d65-7549-41e5-8ec8-a2a2d912e54e",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 97,
+      "answer": "This course is instructed by Prof. Brahim Medjahed (brahim@umich.edu)",
+      "source": "Editorial",
+      "questions": [
+        "who is the course instructor",
+        "Who is the instructor for the course?"
       ],
       "metadata": [],
       "alternateQuestions": "",

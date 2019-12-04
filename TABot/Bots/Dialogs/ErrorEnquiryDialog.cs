@@ -112,29 +112,36 @@ namespace TABot.Bots.Dialogs
                     var file = ((IEnumerable<Attachment>)stepContext.Result).FirstOrDefault();
                     if(file != null)
                     {
-                        using (WebClient client = new WebClient())
+                        try
                         {
-                            var data = client.DownloadData(new Uri(file.ContentUrl));
-                            using(MemoryStream stream = new MemoryStream(data))
+                            using (WebClient client = new WebClient())
                             {
-                                var response = await _computerVisionClient.RecognizePrintedTextInStreamAsync(false, stream);
-                                
-                                foreach (var region in response.Regions)
+                                var data = client.DownloadData(new Uri(file.ContentUrl));
+                                using (MemoryStream stream = new MemoryStream(data))
                                 {
-                                    foreach (var line in region.Lines)
-                                    {
-                                        StringBuilder builder = new StringBuilder();
-                                        foreach (var word in line.Words)
-                                        {
-                                            builder.Append($"{word.Text} ");
-                                        }
-                                        string text = builder.ToString();
+                                    var response = await _computerVisionClient.RecognizePrintedTextInStreamAsync(false, stream);
 
-                                        lines.Add(text);
+                                    foreach (var region in response.Regions)
+                                    {
+                                        foreach (var line in region.Lines)
+                                        {
+                                            StringBuilder builder = new StringBuilder();
+                                            foreach (var word in line.Words)
+                                            {
+                                                builder.Append($"{word.Text} ");
+                                            }
+                                            string text = builder.ToString();
+
+                                            lines.Add(text);
+                                        }
                                     }
                                 }
                             }
-                        } 
+                        }
+                        catch (Exception e)
+                        {
+                            await stepContext.Context.ReplyTextAsync("Sorry, I was unable to read from the image");
+                        }
                     }
                     else
                     {
@@ -150,12 +157,28 @@ namespace TABot.Bots.Dialogs
                 var result = await _botServices.ErrorLuis.RecognizeAsync(stepContext.Context, cancellationToken);
 
                 var topIntent = result.GetTopScoringIntent();
+                var message = "";
 
                 switch (topIntent.intent)
                 {
                     case "SegmentationFault":
                         worked = true;
-                        var message = "Your program is trying to access a memory that is not allocated for it."; 
+                        message = "Your program is trying to access a memory that is not allocated for it."; 
+                        await stepContext.Context.ReplyTextAsync($"Line - \" {line} \" \n\n{message}");
+                        break;
+                    case "SemicolonMissing":
+                        worked = true;
+                        message = "You might be missing a semicolon at the end of some statement.";
+                        await stepContext.Context.ReplyTextAsync($"Line - \" {line} \" \n\n{message}");
+                        break;
+                    case "EndOfFileWhileParsing":
+                        worked = true;
+                        message = "You might be missing a curly braces at the end of some statement.";
+                        await stepContext.Context.ReplyTextAsync($"Line - \" {line} \" \n\n{message}");
+                        break;
+                    case "LValueError":
+                        worked = true;
+                        message = "Target variable should be to the left of the (=) symbol. Expression should be to the right side. Ex: c = a + b;";
                         await stepContext.Context.ReplyTextAsync($"Line - \" {line} \" \n\n{message}");
                         break;
                 }
