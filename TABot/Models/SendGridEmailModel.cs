@@ -28,6 +28,9 @@ namespace TABot.Models
     {
         [JsonProperty("to")]
         public IEnumerable<EmailAddress> To { get; set; }
+
+        [JsonProperty("cc")]
+        public IEnumerable<EmailAddress> Cc { get; set; }
     }
 
     public class EmailContent

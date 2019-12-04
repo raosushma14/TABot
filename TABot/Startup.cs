@@ -6,14 +6,17 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using TABot.Bots;
+using TABot.Bots.Dialogs;
 using TABot.Services.BotServices;
 using TABot.Services.EmailServices;
+using TABot.Services.TableStorageService;
 
 namespace TABot
 {
@@ -34,7 +37,18 @@ namespace TABot
             // Create the Bot Framework Adapter with error handling enabled.
             services.AddSingleton<IBotFrameworkHttpAdapter, AdapterWithErrorHandler>();
 
+            services.AddSingleton<IStorage, MemoryStorage>();
+
+            services.AddSingleton<UserState>();
+
+            services.AddSingleton<ConversationState>();
+
             services.AddSingleton<IBotServices, BotServices>();
+
+            services.AddTransient<TableStorageService>((serviceProvider) =>
+            {
+                return new TableStorageService(Configuration["StorageConnectionString"]);
+            });
 
             //Register email service as a transient dependency in the IOC
             services.AddTransient<EmailService>((serviceProvider) => {
@@ -50,8 +64,19 @@ namespace TABot
                 return new EmailService(baseUrl, fromEmail, toEmail, authKey);
             });
 
+            services.AddTransient<ComputerVisionClient>((serviceProvider) => {
+                return new ComputerVisionClient(
+                    new ApiKeyServiceClientCredentials(Configuration["ComputerVisionSubscriptionKey"]))
+                {
+                    Endpoint = Configuration["ComputerVisionEndPoint"]                    
+                };
+            });
+
+            services.AddSingleton<ErrorEnquiryDialog>();
+            services.AddSingleton<MainDialog>();
+
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
-            services.AddTransient<IBot, EchoBot>();
+            services.AddTransient<IBot, DialogAndWelcomeBot<MainDialog>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

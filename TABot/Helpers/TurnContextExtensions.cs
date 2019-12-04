@@ -7,7 +7,7 @@ namespace TABot.Helpers
 {
     public static class TurnContextExtensions
     {
-        public static Task<ResourceResponse> ReplyTextAsync(this ITurnContext<IMessageActivity> turnContext, string text, CancellationToken cancellationToken= default(CancellationToken))
+        public static Task<ResourceResponse> ReplyTextAsync(this ITurnContext turnContext, string text, CancellationToken cancellationToken= default(CancellationToken))
         {
             return turnContext.SendActivityAsync(MessageFactory.Text(text));
         }
