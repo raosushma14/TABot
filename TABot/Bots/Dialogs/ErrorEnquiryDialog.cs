@@ -15,6 +15,7 @@ using System.Linq;
 using System.Net;
 using System.IO;
 using System.Text;
+using TABot.Models;
 
 namespace TABot.Bots.Dialogs
 {
@@ -191,6 +192,44 @@ namespace TABot.Bots.Dialogs
             else
             {
                 await stepContext.Context.ReplyTextAsync("I was unable to find out what's wrong. I'll let the course instructor know about this.");
+
+                List<EmailAttachment> emailAttachments = new List<EmailAttachment>();
+                
+                if (choice == uploadChoice)
+                {
+                    var file = ((IEnumerable<Attachment>)stepContext?.Result)?.FirstOrDefault();
+                    string stringdata = "";
+                    using (WebClient client = new WebClient())
+                    {
+                        var data = client.DownloadData(new Uri(file.ContentUrl));
+                        using (MemoryStream stream = new MemoryStream(data))
+                        {
+                            stringdata = Convert.ToBase64String(stream.ToArray());
+                        }
+                    }
+
+                    emailAttachments.Add(new EmailAttachment {
+                        Content = stringdata,
+                        Filename = "error.jpg"
+                    });
+
+                    await _emailService.SendEmailAsync("TABot : I was unable to answer",
+                    "Hello Professor, I was unable to help a student with the error screenshot attached.\nCan you please look into this?", emailAttachments,
+                    to: "raosushma14@gmail.com"//,
+                    //cc: new string[] { stepContext.Context.Activity.From.Id}
+                    );
+                }
+                else
+                {
+                    await _emailService.SendEmailAsync("TABot : I was unable to answer",
+                    $"Hello Professor, I was unable to help a student with the following error. \n\n{ string.Join("\n", lines)}.\n\nCan you please look into this?",
+                    to: "raosushma14@gmail.com"//,
+                    //cc: new string[] { stepContext.Context.Activity.From.Id }
+                    );
+                }
+
+
+                
             }
 
             return await stepContext.EndDialogAsync(cancellationToken);

@@ -26,12 +26,13 @@ namespace TABot.Services.EmailServices
             _authKey = authKey ?? throw new ArgumentNullException(nameof(authKey));
         }
 
-        public async Task SendEmailAsync(string subject, string body, string to = null, IEnumerable<string> cc = null, bool isHtml = false)
+        public async Task SendEmailAsync(string subject, string body, IEnumerable<EmailAttachment> emailAttachments = null, string to = null, IEnumerable<string> cc = null, bool isHtml = false)
         {
             if(to == null)
             {
                 to = _toEmail;
             }
+            
 
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _authKey);
@@ -62,10 +63,14 @@ namespace TABot.Services.EmailServices
                         Type = isHtml? "text/html": "text/plain",
                         Value = body
                     }
-                }
+                },
+                Attachments = emailAttachments
             };
 
-            string json = JsonConvert.SerializeObject(model);
+            string json = JsonConvert.SerializeObject(model, new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore
+            });
             var response = await client.PostAsync(url, new StringContent(json, Encoding.UTF8, "application/json"));
 
             if (!response.IsSuccessStatusCode)

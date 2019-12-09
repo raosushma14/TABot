@@ -16,6 +16,22 @@ namespace TABot.Models
 
         [JsonProperty("content")]
         public IEnumerable<EmailContent> Content { get; set; }
+
+        [JsonProperty("attachments", NullValueHandling = NullValueHandling.Ignore)]
+        public IEnumerable<EmailAttachment> Attachments { get; set; }
+    }
+
+    public class EmailAttachment
+    {
+        [JsonProperty("content")]
+        public string Content { get; set; }
+
+        [JsonProperty("filename")]
+        public string Filename { get; set; }
+
+        [JsonProperty("type")]
+        public string Type { get; set; } = "image/jpeg";
+
     }
 
     public class EmailAddress

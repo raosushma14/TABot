@@ -18,7 +18,7 @@ namespace TABot.Helpers
                         context.Activity.From.Id
             };
 
-            await emailService.SendEmailAsync(subject, body, to, cc);
+            await emailService.SendEmailAsync(subject, body, null, to, cc);
         }
 
         public static async Task LogToTableStorage(ITurnContext context, TableStorageService storageService)
